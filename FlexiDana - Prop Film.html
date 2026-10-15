@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00D154">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <title>FlexiDana - Layanan Pembiayaan Digital Resmi OJK (Properti Film)</title>
+
+    <style id="offline-tailwind">*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Plus Jakarta Sans,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.bottom-0{bottom:0}.left-0{left:0}.left-1\/2{left:50%}.left-3{left:.75rem}.right-0{right:0}.right-1\.5{right:.375rem}.right-3{right:.75rem}.top-1\.5{top:.375rem}.top-2{top:.5rem}.top-5{top:1.25rem}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.m-4{margin:1rem}.mx-auto{margin-left:auto;margin-right:auto}.my-1{margin-top:.25rem;margin-bottom:.25rem}.my-3{margin-top:.75rem;margin-bottom:.75rem}.my-auto{margin-top:auto;margin-bottom:auto}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-2\.5{margin-top:.625rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-0\.5{height:.125rem}.h-1\.5{height:.375rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-2{height:.5rem}.h-48{height:12rem}.h-56{height:14rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-full{height:100%}.max-h-72{max-height:18rem}.max-h-\[92vh\]{max-height:92vh}.min-h-screen{min-height:100vh}.w-1\/3{width:33.333333%}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-16{width:4rem}.w-2{width:.5rem}.w-2\/3{width:66.666667%}.w-36{width:9rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-full{width:100%}.max-w-\[430px\]{max-width:430px}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-\[1\.4\]{flex:1.4}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%}.-rotate-6,.-translate-x-1\/2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-6{--tw-rotate:-6deg}.rotate-6{--tw-rotate:6deg}.rotate-6,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes ping{75%,to{transform:scale(2);opacity:0}}.animate-ping{animation:ping 1s cubic-bezier(0,0,.2,1) infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.list-decimal{list-style-type:decimal}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-2\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.625rem*var(--tw-space-x-reverse));margin-left:calc(.625rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem*var(--tw-space-x-reverse));margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-3\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.875rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.875rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-slate-100>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(241 245 249/var(--tw-divide-opacity,1))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.whitespace-nowrap{white-space:nowrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-0{border-width:0}.border-2{border-width:2px}.border-4{border-width:4px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138/var(--tw-border-opacity,1))}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77/var(--tw-border-opacity,1))}.border-amber-400{--tw-border-opacity:1;border-color:rgb(251 191 36/var(--tw-border-opacity,1))}.border-amber-500\/40{border-color:rgba(245,158,11,.4)}.border-brand-500{--tw-border-opacity:1;border-color:rgb(0 209 84/var(--tw-border-opacity,1))}.border-brand-500\/40{border-color:rgba(0,209,84,.4)}.border-brand-500\/80{border-color:rgba(0,209,84,.8)}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229/var(--tw-border-opacity,1))}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208/var(--tw-border-opacity,1))}.border-emerald-200\/80{border-color:rgba(167,243,208,.8)}.border-emerald-300{--tw-border-opacity:1;border-color:rgb(110 231 183/var(--tw-border-opacity,1))}.border-emerald-500\/40{border-color:rgba(16,185,129,.4)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249/var(--tw-border-opacity,1))}.border-slate-100\/90{border-color:rgba(241,245,249,.9)}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity,1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85/var(--tw-border-opacity,1))}.border-slate-700\/80{border-color:rgba(51,65,85,.8)}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59/var(--tw-border-opacity,1))}.border-white\/40{border-color:hsla(0,0%,100%,.4)}.bg-\[\#FBF9F1\]{--tw-bg-opacity:1;background-color:rgb(251 249 241/var(--tw-bg-opacity,1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity,1))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity,1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11/var(--tw-bg-opacity,1))}.bg-amber-500\/20{background-color:rgba(245,158,11,.2)}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity,1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity,1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity,1))}.bg-blue-500\/20{background-color:rgba(59,130,246,.2)}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity,1))}.bg-brand-50{--tw-bg-opacity:1;background-color:rgb(240 253 244/var(--tw-bg-opacity,1))}.bg-brand-500{--tw-bg-opacity:1;background-color:rgb(0 209 84/var(--tw-bg-opacity,1))}.bg-brand-500\/80{background-color:rgba(0,209,84,.8)}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity,1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245/var(--tw-bg-opacity,1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129/var(--tw-bg-opacity,1))}.bg-emerald-500\/20{background-color:rgba(16,185,129,.2)}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255/var(--tw-bg-opacity,1))}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255/var(--tw-bg-opacity,1))}.bg-purple-500\/20{background-color:rgba(168,85,247,.2)}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity,1))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity,1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.bg-slate-200\/80{background-color:rgba(226,232,240,.8)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42/var(--tw-bg-opacity,1))}.bg-slate-900\/80{background-color:rgba(15,23,42,.8)}.bg-slate-900\/95{background-color:rgba(15,23,42,.95)}.bg-slate-950\/80{background-color:rgba(2,6,23,.8)}.bg-slate-950\/90{background-color:rgba(2,6,23,.9)}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/90{background-color:hsla(0,0%,100%,.9)}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgba(15,23,42,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-slate-800{--tw-gradient-to:rgba(30,41,59,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#1e293b var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position)}.object-cover{-o-object-fit:cover;object-fit:cover}.p-0{padding:0}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-2{padding-bottom:.5rem}.pb-20{padding-bottom:5rem}.pb-3{padding-bottom:.75rem}.pl-4{padding-left:1rem}.pt-1{padding-top:.25rem}.pt-1\.5{padding-top:.375rem}.pt-2{padding-top:.5rem}.pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.pt-7{padding-top:1.75rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[8px\]{font-size:8px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77/var(--tw-text-opacity,1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity,1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15/var(--tw-text-opacity,1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253/var(--tw-text-opacity,1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity,1))}.text-brand-500{--tw-text-opacity:1;color:rgb(0 209 84/var(--tw-text-opacity,1))}.text-brand-600{--tw-text-opacity:1;color:rgb(0 179 71/var(--tw-text-opacity,1))}.text-brand-700{--tw-text-opacity:1;color:rgb(0 143 56/var(--tw-text-opacity,1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183/var(--tw-text-opacity,1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153/var(--tw-text-opacity,1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129/var(--tw-text-opacity,1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity,1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity,1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity,1))}.text-purple-300{--tw-text-opacity:1;color:rgb(216 180 254/var(--tw-text-opacity,1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234/var(--tw-text-opacity,1))}.text-red-300{--tw-text-opacity:1;color:rgb(252 165 165/var(--tw-text-opacity,1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240/var(--tw-text-opacity,1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59/var(--tw-text-opacity,1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-\[0_0_8px_\#00D154\]{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-\[0_0_8px_\#00D154\]{--tw-shadow:0 0 8px #00d154;--tw-shadow-colored:0 0 8px var(--tw-shadow-color)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.shadow-inner,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-md,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-brand-500\/20{--tw-shadow-color:rgba(0,209,84,.2);--tw-shadow:var(--tw-shadow-colored)}.shadow-brand-500\/30{--tw-shadow-color:rgba(0,209,84,.3);--tw-shadow:var(--tw-shadow-colored)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur{--tw-backdrop-blur:blur(8px)}.backdrop-blur,.backdrop-blur-md{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.focus-within\:border-brand-500:focus-within{--tw-border-opacity:1;border-color:rgb(0 209 84/var(--tw-border-opacity,1))}.focus-within\:bg-white:focus-within{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.hover\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity,1))}.hover\:bg-amber-700:hover{--tw-bg-opacity:1;background-color:rgb(180 83 9/var(--tw-bg-opacity,1))}.hover\:bg-brand-600:hover{--tw-bg-opacity:1;background-color:rgb(0 179 71/var(--tw-bg-opacity,1))}.hover\:bg-emerald-100:hover{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity,1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity,1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity,1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85/var(--tw-bg-opacity,1))}.hover\:bg-slate-800:hover{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.focus\:border-brand-500:focus{--tw-border-opacity:1;border-color:rgb(0 209 84/var(--tw-border-opacity,1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.active\:scale-\[0\.98\]:active{--tw-scale-x:0.98;--tw-scale-y:0.98;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width:640px){.sm\:max-h-\[920px\]{max-height:920px}.sm\:min-h-\[880px\]{min-height:880px}.sm\:rounded-\[44px\]{border-radius:44px}.sm\:border-\[8px\]{border-width:8px}.sm\:border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59/var(--tw-border-opacity,1))}.sm\:p-4{padding:1rem}}</style>
+    <style id="offline-icons">
+.fa-solid,.fa-regular{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;background-color:currentColor;-webkit-mask:var(--fa) no-repeat center/contain;mask:var(--fa) no-repeat center/contain;font-style:normal}
+.fa-spin{animation:fa-spin 1s linear infinite}@keyframes fa-spin{to{transform:rotate(360deg)}}
+.fa-regular.fa-bell{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMjI0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0djkuN0MxMTguNiA0NS4zIDU2IDExNS40IDU2IDIwMHYxNC41YzAgMzcuNy0xMCA3NC43LTI5IDEwNy4zTDUuMSAzNTkuMkMxLjggMzY1IDAgMzcxLjUgMCAzNzguMiAwIDM5OS4xIDE2LjkgNDE2IDM3LjggNDE2aDM3Mi40YzIwLjkgMCAzNy44LTE2LjkgMzcuOC0zNy44IDAtNi43LTEuOC0xMy4zLTUuMS0xOUw0MjEgMzIxLjdjLTE5LTMyLjYtMjktNjkuNi0yOS0xMDcuM3YtMTQuNWMwLTg0LjYtNjIuNi0xNTQuNy0xNDQtMTY2LjN2LTkuN2MwLTEzLjMtMTAuNy0yNC0yNC0yNHptMTY4LjQgMzY4SDU1LjVsMTIuOS0yMi4xQzkxLjcgMzA2IDEwNCAyNjAuNiAxMDQgMjE0LjVWMjAwYzAtNjYuMyA1My43LTEyMCAxMjAtMTIwczEyMCA1My43IDEyMCAxMjB2MTQuNWMwIDQ2LjIgMTIuMyA5MS41IDM1LjUgMTMxLjR6bS0yMzYuMyA5NmM5LjkgMjggMzYuNiA0OCA2Ny45IDQ4czU4LTIwIDY3LjktNDh6Ii8+PC9zdmc+")}
+.fa-regular.fa-calendar{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMTIwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjR2NDBoMTYwVjI0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDBoMzJjMzUuMyAwIDY0IDI4LjcgNjQgNjR2Mjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0SDY0Yy0zNS4zIDAtNjQtMjguNy02NC02NFYxMjhjMC0zNS4zIDI4LjctNjQgNjQtNjRoMzJWMjRjMC0xMy4zIDEwLjctMjQgMjQtMjRtMCAxMTJINjRjLTguOCAwLTE2IDcuMi0xNiAxNnY0OGgzNTJ2LTQ4YzAtOC44LTcuMi0xNi0xNi0xNnpNNDggMjI0djE5MmMwIDguOCA3LjIgMTYgMTYgMTZoMzIwYzguOCAwIDE2LTcuMiAxNi0xNlYyMjR6Ii8+PC9zdmc+")}
+.fa-regular.fa-calendar-check{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMzI4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjR2NDBoMzJjMzUuMyAwIDY0IDI4LjcgNjQgNjR2Mjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0SDY0Yy0zNS4zIDAtNjQtMjguNy02NC02NFYxMjhjMC0zNS4zIDI4LjctNjQgNjQtNjRoMzJWMjRjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0MGgxNjBWMjRjMC0xMy4zIDEwLjctMjQgMjQtMjRNNjQgMTEyYy04LjggMC0xNiA3LjItMTYgMTZ2Mjg4YzAgOC44IDcuMiAxNiAxNiAxNmgzMjBjOC44IDAgMTYtNy4yIDE2LTE2VjEyOGMwLTguOC03LjItMTYtMTYtMTZ6bTIzMC43IDY1LjljNy44LTEwLjcgMjIuOC0xMy4xIDMzLjUtNS4zczEzLjEgMjIuOCA1LjMgMzMuNWwtMTIyLjEgMTY4Yy00LjEgNS43LTEwLjUgOS4zLTE3LjUgOS44cy0xMy45LTItMTguOC02LjlsLTU1LjktNTUuOWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDM2IDM2TDI5NC43IDE3OHoiLz48L3N2Zz4=")}
+.fa-regular.fa-copy{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMzg0IDMzNkgxOTJjLTguOCAwLTE2LTcuMi0xNi0xNlY2NGMwLTguOCA3LjItMTYgMTYtMTZoMTMzLjVjNC4yIDAgOC4zIDEuNyAxMS4zIDQuN2w1OC41IDU4LjVjMyAzIDQuNyA3LjEgNC43IDExLjNWMzIwYzAgOC44LTcuMiAxNi0xNiAxNm0tMTkyIDQ4aDE5MmMzNS4zIDAgNjQtMjguNyA2NC02NFYxMjIuNWMwLTE3LTYuNy0zMy4zLTE4LjctNDUuM2wtNTguNi01OC41QzM1OC43IDYuNyAzNDIuNSAwIDMyNS41IDBIMTkyYy0zNS4zIDAtNjQgMjguNy02NCA2NHYyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRNNjQgMTI4Yy0zNS4zIDAtNjQgMjguNy02NCA2NHYyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRoMTkyYzM1LjMgMCA2NC0yOC43IDY0LTY0di0xNmgtNDh2MTZjMCA4LjgtNy4yIDE2LTE2IDE2SDY0Yy04LjggMC0xNi03LjItMTYtMTZWMTkyYzAtOC44IDcuMi0xNiAxNi0xNmgxNnYtNDh6Ii8+PC9zdmc+")}
+.fa-regular.fa-user{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMTQ0IDEyOGE4MCA4MCAwIDEgMSAxNjAgMCA4MCA4MCAwIDEgMS0xNjAgMG0yMDggMGExMjggMTI4IDAgMSAwLTI1NiAwIDEyOCAxMjggMCAxIDAgMjU2IDBNNDggNDgwYzAtNzAuNyA1Ny4zLTEyOCAxMjgtMTI4aDk2YzcwLjcgMCAxMjggNTcuMyAxMjggMTI4djhjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNHYtOGMwLTk3LjItNzguOC0xNzYtMTc2LTE3NmgtOTZDNzguOCAzMDQgMCAzODIuOCAwIDQ4MHY4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjR6Ii8+PC9zdmc+")}
+.fa-solid.fa-arrow-right{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNTAyLjYgMjc4LjZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTE2MC0xNjBjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwcy0xMi41IDMyLjggMCA0NS4zTDQwMi43IDIyNEgzMmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmgzNzAuN0wyOTcuMyAzOTMuNGMtMTIuNSAxMi41LTEyLjUgMzIuOCAwIDQ1LjNzMzIuOCAxMi41IDQ1LjMgMGwxNjAtMTYweiIvPjwvc3ZnPg==")}
+.fa-solid.fa-arrows-rotate{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNjUuOSAyMjguNUM3OS4yIDEzNS41IDE1OS4zIDY0IDI1NiA2NGM1MyAwIDEwMSAyMS41IDEzNS44IDU2LjJsLjYuNiA3LjYgNy4yaC00Ny45Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMyaDEyOGMxNy43IDAgMzItMTQuMyAzMi0zMlYzMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMnY1My40bC0xMS4zLTEwLjdDMzkwLjUgMjguNiAzMjYuNSAwIDI1NiAwIDEyNyAwIDIwLjMgOTUuNCAyLjYgMjE5LjVjLTIuNSAxNy41IDkuNiAzMy43IDI3LjEgMzYuMnMzMy43LTkuNyAzNi4yLTI3LjF6bTQ0My41IDY0YzIuNS0xNy41LTkuNy0zMy43LTI3LjEtMzYuMnMtMzMuNyA5LjctMzYuMiAyNy4xYy0xMy4zIDkzLTkzLjQgMTY0LjUtMTkwLjEgMTY0LjUtNTMgMC0xMDEtMjEuNS0xMzUuOC01Ni4ybC0uNi0uNi03LjYtNy4yaDQ3LjljMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzIgMzIwYy04LjUgMC0xNi43IDMuNC0yMi43IDkuNVMtLjEgMzQzLjcgMCAzNTIuM2wxIDEyN2MuMSAxNy43IDE0LjYgMzEuOSAzMi4zIDMxLjdzMzEuOS0xNC42IDMxLjctMzIuM2wtLjQtNTEuNSAxMC43IDEwLjFDMTIxLjYgNDgzLjQgMTg1LjUgNTEyIDI1NiA1MTJjMTI5IDAgMjM1LjctOTUuNCAyNTMuNC0yMTkuNSIvPjwvc3ZnPg==")}
+.fa-solid.fa-bell{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMjI0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMydjMuMkMxMTkgNTAgNjQgMTE0LjYgNjQgMTkydjIxLjdjMCA0OC4xLTE2LjQgOTQuOC00Ni40IDEzMi40bC05LjggMTIuMkMyLjcgMzY0LjYgMCAzNzIuNCAwIDM4MC41IDAgNDAwLjEgMTUuOSA0MTYgMzUuNSA0MTZoMzc2LjljMTkuNiAwIDM1LjUtMTUuOSAzNS41LTM1LjUgMC04LjEtMi43LTE1LjktNy44LTIyLjJsLTkuOC0xMi4yYy0yOS45LTM3LjYtNDYuMy04NC4zLTQ2LjMtMTMyLjRWMTkyYzAtNzcuNC01NS0xNDItMTI4LTE1Ni44VjMyYzAtMTcuNy0xNC4zLTMyLTMyLTMybS02MiA0NjRjNy4xIDI3LjYgMzIuMiA0OCA2MiA0OHM1NC45LTIwLjQgNjItNDh6Ii8+PC9zdmc+")}
+.fa-solid.fa-bell-ring{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMjI0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMydjMuMkMxMTkgNTAgNjQgMTE0LjYgNjQgMTkydjIxLjdjMCA0OC4xLTE2LjQgOTQuOC00Ni40IDEzMi40bC05LjggMTIuMkMyLjcgMzY0LjYgMCAzNzIuNCAwIDM4MC41IDAgNDAwLjEgMTUuOSA0MTYgMzUuNSA0MTZoMzc2LjljMTkuNiAwIDM1LjUtMTUuOSAzNS41LTM1LjUgMC04LjEtMi43LTE1LjktNy44LTIyLjJsLTkuOC0xMi4yYy0yOS45LTM3LjYtNDYuMy04NC4zLTQ2LjMtMTMyLjRWMTkyYzAtNzcuNC01NS0xNDItMTI4LTE1Ni44VjMyYzAtMTcuNy0xNC4zLTMyLTMyLTMybS02MiA0NjRjNy4xIDI3LjYgMzIuMiA0OCA2MiA0OHM1NC45LTIwLjQgNjItNDh6Ii8+PC9zdmc+")}
+.fa-solid.fa-bolt{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMzM4LjgtOS45YzExLjkgOC42IDE2LjMgMjQuMiAxMC45IDM3LjhMMjcxLjMgMjI0SDQxNmMxMy41IDAgMjUuNSA4LjQgMzAuMSAyMS4xcy43IDI2LjktOS42IDM1LjVsLTI4OCAyNDBjLTExLjMgOS40LTI3LjQgOS45LTM5LjMgMS4zcy0xNi4zLTI0LjItMTAuOS0zNy44TDE3Ni43IDI4OEgzMmMtMTMuNSAwLTI1LjUtOC40LTMwLjEtMjEuMXMtLjctMjYuOSA5LjYtMzUuNWwyODgtMjQwYzExLjMtOS40IDI3LjQtOS45IDM5LjMtMS4zIi8+PC9zdmc+")}
+.fa-solid.fa-bolt-lightning{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMCAyNTYgMjguNSAyOGMyLTE2IDE1LjYtMjggMzEuOC0yOGgxNjguNmMxNSAwIDI3LjEgMTIuMSAyNy4xIDI3LjEgMCAzLjItLjYgNi41LTEuNyA5LjVMMjA4IDE2MGgxMzkuM2MyMC4yIDAgMzYuNyAxNi40IDM2LjcgMzYuNyAwIDcuNC0yLjIgMTQuNi02LjQgMjAuN2wtMTkyLjIgMjgxYy01LjkgOC42LTE1LjYgMTMuNy0yNS45IDEzLjdoLTIuOWMtMTUuNyAwLTI4LjUtMTIuOC0yOC41LTI4LjVxMC0zLjQ1LjktNi45TDE3NiAyODhIMzJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyIi8+PC9zdmc+")}
+.fa-solid.fa-building-columns{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjcxLjkgMjAuMmMtOS44LTUuNi0yMS45LTUuNi0zMS44IDBsLTIyNCAxMjhjLTEyLjYgNy4yLTE4LjggMjItMTUuMSAzNlMxNy41IDIwOCAzMiAyMDhoMzJ2MjA4bC01MS4yIDM4LjRDNC43IDQ2MC40IDAgNDY5LjkgMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJoNDQ4YzE3LjcgMCAzMi0xNC4zIDMyLTMyIDAtMTAuMS00LjctMTkuNi0xMi44LTI1LjZMNDQ4IDQxNlYyMDhoMzJjMTQuNSAwIDI3LjItOS44IDMwLjktMjMuOHMtMi41LTI4LjgtMTUuMS0zNmwtMjI0LTEyOHpNNDAwIDIwOHYyMDhoLTY0VjIwOHptLTExMiAwdjIwOGgtNjRWMjA4em0tMTEyIDB2MjA4aC02NFYyMDh6bTgwLTExMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjQiLz48L3N2Zz4=")}
+.fa-solid.fa-calculator{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjR2Mzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0aDI1NmMzNS4zIDAgNjQtMjguNyA2NC02NFY2NGMwLTM1LjMtMjguNy02NC02NC02NHptMzIgNjRoMTkyYzE3LjcgMCAzMiAxNC4zIDMyIDMydjMyYzAgMTcuNy0xNC4zIDMyLTMyIDMySDk2Yy0xNy43IDAtMzItMTQuMy0zMi0zMlY5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMm0xNiAxNjhhMjQgMjQgMCAxIDEtNDggMCAyNCAyNCAwIDEgMSA0OCAwbTgwIDI0YTI0IDI0IDAgMSAxIDAtNDggMjQgMjQgMCAxIDEgMCA0OG0xMjgtMjRhMjQgMjQgMCAxIDEtNDggMCAyNCAyNCAwIDEgMSA0OCAwTTg4IDM1MmEyNCAyNCAwIDEgMSAwLTQ4IDI0IDI0IDAgMSAxIDAgNDhtMTI4LTI0YTI0IDI0IDAgMSAxLTQ4IDAgMjQgMjQgMCAxIDEgNDggMG04MCAyNGEyNCAyNCAwIDEgMSAwLTQ4IDI0IDI0IDAgMSAxIDAgNDhNNjQgNDI0YzAtMTMuMyAxMC43LTI0IDI0LTI0aDExMmMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEg4OGMtMTMuMyAwLTI0LTEwLjctMjQtMjRtMjMyLTI0YzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0LTI0LTEwLjctMjQtMjQgMTAuNy0yNCAyNC0yNCIvPjwvc3ZnPg==")}
+.fa-solid.fa-camera{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMTQ5LjEgNjQuOCAxMzguNyA5Nkg2NGMtMzUuMyAwLTY0IDI4LjctNjQgNjR2MjU2YzAgMzUuMyAyOC43IDY0IDY0IDY0aDM4NGMzNS4zIDAgNjQtMjguNyA2NC02NFYxNjBjMC0zNS4zLTI4LjctNjQtNjQtNjRoLTc0LjdsLTEwLjQtMzEuMkMzNTYuNCA0NS4yIDMzOC4xIDMyIDMxNy40IDMySDE5NC42Yy0yMC43IDAtMzkgMTMuMi00NS41IDMyLjhNMjU2IDE5MmE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MiIvPjwvc3ZnPg==")}
+.fa-solid.fa-camera-retro{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMCA0MTZWMjA4aDEzNi4yYzEzLjUtMjAuMiAzMi0zNi44IDUzLjctNDhIMHYtMzQuM2MwLTM1LjMgMjguNy02NCA2NC02NGguMUM2NS4zIDQ1LjEgNzkuMSAzMiA5NiAzMmgzMmMxNi45IDAgMzAuNyAxMy4xIDMxLjkgMjkuN0gxOTJsNTEuMi0yMy44YzguNC0zLjkgMTcuNi02IDI2LjktNkw0NDggMzJjMzUuMyAwIDY0IDI4LjcgNjQgNjR2NjRIMzIyYzIxLjcgMTEuMiA0MC4yIDI3LjggNTMuNyA0OGgxMzYuMnYyMDhjMCAzNS4zLTI4LjcgNjQtNjQgNjRINjRjLTM1LjMgMC02NC0yOC43LTY0LTY0bTI1Ni0yMjRhOTYuMSA5Ni4xIDAgMSAwIDAgMTkyLjEgOTYuMSA5Ni4xIDAgMSAwIDAtMTkyLjEiLz48L3N2Zz4=")}
+.fa-solid.fa-check{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNNDM0LjggNzAuMWMxNC4zIDEwLjQgMTcuNSAzMC40IDcuMSA0NC43bC0yNTYgMzUyYy01LjUgNy42LTE0IDEyLjMtMjMuNCAxMy4xcy0xOC41LTIuNy0yNS4xLTkuM2wtMTI4LTEyOGMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNzMzIuOC0xMi41IDQ1LjMgMGwxMDEuNSAxMDEuNSAyMzQtMzIxLjdjMTAuNC0xNC4zIDMwLjQtMTcuNSA0NC43LTcuMXoiLz48L3N2Zz4=")}
+.fa-solid.fa-check-double{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMjQ5LjkgNjYuOGMxMC40LTE0LjMgNy4yLTM0LjMtNy4xLTQ0LjdzLTM0LjMtNy4yLTQ0LjcgNy4xbC0xMDYgMTQ1LjctMzcuNS0zNy41Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMHMtMTIuNSAzMi44IDAgNDUuM2w2NCA2NGM2LjYgNi42IDE1LjggMTAgMjUuMSA5LjNzMTcuOS01LjUgMjMuNC0xMy4xbDEyOC0xNzZ6bTEyOCAxMzZjMTAuNC0xNC4zIDcuMi0zNC4zLTcuMS00NC43cy0zNC4zLTcuMi00NC43IDcuMWwtMTcwIDIzMy43LTY5LjUtNjkuNWMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBzLTEyLjUgMzIuOCAwIDQ1LjNsOTYgOTZjNi42IDYuNiAxNS44IDEwIDI1LjEgOS4zczE3LjktNS41IDIzLjQtMTMuMWwxOTItMjY0eiIvPjwvc3ZnPg==")}
+.fa-solid.fa-chevron-right{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48cGF0aCBkPSJNMzExLjEgMjMzLjRjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNsLTE5MiAxOTJjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwcy0xMi41LTMyLjggMC00NS4zTDI0My4yIDI1NiA3My45IDg2LjZjLTEyLjUtMTIuNS0xMi41LTMyLjggMC00NS4zczMyLjgtMTIuNSA0NS4zIDBsMTkyIDE5MnoiLz48L3N2Zz4=")}
+.fa-solid.fa-circle-check{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjU2IDUxMmEyNTYgMjU2IDAgMSAxIDAtNTEyIDI1NiAyNTYgMCAxIDEgMCA1MTJtMTE4LTM2Ni4zYy0xMC43LTcuOC0yNS43LTUuNC0zMy41IDUuM0wyMjEuMSAzMTUuMiAxNjkgMjYzLjFjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNzIgNzJjNSA1IDExLjggNy41IDE4LjggN3MxMy40LTQuMSAxNy41LTkuOGwxMzUuOS0xODdjNy44LTEwLjcgNS40LTI1LjctNS4zLTMzLjUiLz48L3N2Zz4=")}
+.fa-solid.fa-clapperboard{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDQ4IDY0YzIgMCAzLjkuMSA1LjguM0wzNTguMSAxNjBINDI2bDcyLTcyYzguOCAxMSAxNCAyNC45IDE0IDQwdjI1NmMwIDM1LjMtMjguNyA2NC02NCA2NEg2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRWMTI4YzAtMzUuMyAyOC43LTY0IDY0LTY0aDcwLjFsLTk2IDk2SDEwNmw5NS05NSAxLTFoOTIuMWwtOTYgOTZIMjY2bDk1LTk1IDEtMWg4Ni4xeiIvPjwvc3ZnPg==")}
+.fa-solid.fa-clock-rotate-left{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNMjg4IDY0YzEwNiAwIDE5MiA4NiAxOTIgMTkycy04NiAxOTItMTkyIDE5MmMtNjUuMiAwLTEyMi45LTMyLjUtMTU3LjYtODIuMy0xMC4xLTE0LjUtMzAuMS0xOC00NC42LTcuOXMtMTggMzAuMS03LjkgNDQuNkMxMjQuMSA0NjguNiAyMDEgNTEyIDI4OCA1MTJjMTQxLjQgMCAyNTYtMTE0LjYgMjU2LTI1NlM0MjkuNCAwIDI4OCAwQzIwMi4zIDAgMTI2LjUgNDIuMSA4MCAxMDYuN1Y4MGMwLTE3LjctMTQuMy0zMi0zMi0zMlMxNiA2Mi4zIDE2IDgwdjExMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmgxMTIuMWMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmgtMzguM0MxNTQuOSAxMDIuNiAyMTcgNjQgMjg4IDY0bTI0IDg4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0djEwNGMwIDYuNCAyLjUgMTIuNSA3IDE3bDcyIDcyYzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNjUtNjVWMTUyeiIvPjwvc3ZnPg==")}
+.fa-solid.fa-eye{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNMjg4IDMyYy04MC44IDAtMTQ1LjUgMzYuOC0xOTIuNiA4MC42LTQ2LjggNDMuNS03OC4xIDk1LjQtOTMgMTMxLjEtMy4zIDcuOS0zLjMgMTYuNyAwIDI0LjYgMTQuOSAzNS43IDQ2LjIgODcuNyA5MyAxMzEuMUMxNDIuNSA0NDMuMSAyMDcuMiA0ODAgMjg4IDQ4MHMxNDUuNS0zNi44IDE5Mi42LTgwLjZjNDYuOC00My41IDc4LjEtOTUuNCA5My0xMzEuMSAzLjMtNy45IDMuMy0xNi43IDAtMjQuNi0xNC45LTM1LjctNDYuMi04Ny43LTkzLTEzMS4xQzQzMy41IDY4LjkgMzY4LjggMzIgMjg4IDMyTTE0NCAyNTZhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxLTI4OCAwbTE0NC02NGMwIDM1LjMtMjguNyA2NC02NCA2NC0xMS41IDAtMjIuMy0zLTMxLjctOC40LTEgMTAuOS0uMSAyMi4xIDIuOSAzMy4yIDEzLjcgNTEuMiA2Ni40IDgxLjYgMTE3LjYgNjcuOXM4MS42LTY2LjQgNjcuOS0xMTcuNmMtMTIuMi00NS43LTU1LjUtNzQuOC0xMDEuMS03MC44IDUuMyA5LjMgOC40IDIwLjEgOC40IDMxLjciLz48L3N2Zz4=")}
+.fa-solid.fa-id-card{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNMCA5NmMwLTM1LjMgMjguNy02NCA2NC02NGg0NDhjMzUuMyAwIDY0IDI4LjcgNjQgNjR6bTAgNDhoNTc2djI3MmMwIDM1LjMtMjguNyA2NC02NCA2NEg2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjR6bTI0Ny4zIDI3MmMyMC4yIDAgMzUuMy0xOS40IDIyLjQtMzUtMTQuNy0xNy43LTM2LjktMjktNjEuNy0yOWgtNjRjLTI0LjggMC00NyAxMS4zLTYxLjcgMjktMTIuOSAxNS42IDIuMiAzNSAyMi40IDM1aDE0Mi41ek0xNzYgMzEyYTU2IDU2IDAgMSAwIDAtMTEyIDU2IDU2IDAgMSAwIDAgMTEybTE4NC0xMDRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRoMTEyYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0em0wIDk2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0aDExMmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNHoiLz48L3N2Zz4=")}
+.fa-solid.fa-mobile-screen-button{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMTYgNjRDMTYgMjguNyA0NC43IDAgODAgMGgyMjRjMzUuMyAwIDY0IDI4LjcgNjQgNjR2Mzg0YzAgMzUuMy0yOC43IDY0LTY0IDY0SDgwYy0zNS4zIDAtNjQtMjguNy02NC02NHptNjQgMHYzMDRoMjI0VjY0em0xMTIgNDA4YzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyLTMyIDE0LjMtMzIgMzIgMTQuMyAzMiAzMiAzMiIvPjwvc3ZnPg==")}
+.fa-solid.fa-money-bill-transfer{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBkPSJNMzEgMTA1Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOUwxMDMtMWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjlsLTMxIDMxaDQwNmMzNS4zIDAgNjQgMjguNyA2NCA2NHYxNzguMmwtNS4xLTUuMWMtMjguMS0yOC4xLTczLjctMjguMS0xMDEuOCAwLTI3LjIgMjcuMi0yOC4xIDcwLjYtMi44IDk4LjloNjcuN2wtMzEtMzFjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS40IDMzLjkgMGw3MiA3MmM5LjQgOS40IDkuNCAyNC42IDAgMzMuOWwtNzIgNzJjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsMzEtMzFIMTI3LjhjLTM1LjMgMC02NC0yOC43LTY0LTY0VjIwNS44bDUuMSA1LjFjMjguMSAyOC4xIDczLjcgMjguMSAxMDEuOCAwIDI3LjItMjcuMiAyOC4xLTcwLjYgMi44LTk4LjloLTY3LjdsMzEgMzFjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMHptMzg1IDE1MWE5NiA5NiAwIDEgMC0xOTIgMCA5NiA5NiAwIDEgMCAxOTIgMG04OC02NC41YzQuNC41IDgtMy4xIDgtNy41di00OGMwLTQuNC0zLjYtOC04LThoLTQ4Yy00LjQgMC04LjEgMy42LTcuNSA4IDMuNiAyOSAyNi42IDUxLjkgNTUuNSA1NS41bS0zNjggMTI5Yy00LjQtLjUtOCAzLjEtOCA3LjV2NDhjMCA0LjQgMy42IDggOCA4aDQ4YzQuNCAwIDguMS0zLjYgNy41LTgtMy42LTI5LTI2LjYtNTEuOS01NS41LTU1LjUiLz48L3N2Zz4=")}
+.fa-solid.fa-paper-plane{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNNTM2LjQtMjYuM2M5LjgtMy41IDIwLjYtMSAyOCA2LjNzOS44IDE4LjIgNi4zIDI4bC0xNzggNDk2LjljLTUgMTMuOS0xOC4xIDIzLjEtMzIuOCAyMy4xLTE0LjIgMC0yNy04LjYtMzIuMy0yMS43bC02NC4yLTE1OGMtNC41LTExLTIuNS0yMy42IDUuMi0zMi42bDk0LjUtMTEyLjRjNS4xLTYuMSA0LjctMTUtLjktMjAuNnMtMTQuNi02LTIwLjYtLjlsLTExMi40IDk0LjNjLTkuMSA3LjYtMjEuNiA5LjYtMzIuNiA1LjJMMzguMSAyMTYuOGMtMTMuMS01LjMtMjEuNy0xOC4xLTIxLjctMzIuMyAwLTE0LjcgOS4yLTI3LjggMjMuMS0zMi44eiIvPjwvc3ZnPg==")}
+.fa-solid.fa-percent{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMTkyIDEyOGE5NiA5NiAwIDEgMC0xOTIgMCA5NiA5NiAwIDEgMCAxOTIgMG0yNTYgMjU2YTk2IDk2IDAgMSAwLTE5MiAwIDk2IDk2IDAgMSAwIDE5MiAwbS05LjQtMjk3LjRjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNzLTMyLjgtMTIuNS00NS4zIDBsLTM4NCAzODRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zczMyLjggMTIuNSA0NS4zIDB6Ii8+PC9zdmc+")}
+.fa-solid.fa-phone{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMTYwLjIgMjVjLTcuOS0xOC45LTI4LjUtMjguOS00OC4xLTIzLjZsLTUuNSAxLjVDNDIgMjAuNS0xMy4yIDgzLjEgMi45IDE1OS4zIDQwIDMzNC4zIDE3Ny43IDQ3MiAzNTIuNyA1MDkuMSA0MjkgNTI1LjMgNDkxLjUgNDcwIDUwOS4xIDQwNS40bDEuNS01LjVjNS40LTE5LjctNC43LTQwLjMtMjMuNS00OC4xbC05Ny4zLTQwLjVjLTE2LjUtNi45LTM1LjYtMi4xLTQ3IDExLjhsLTM4LjYgNDcuMmMtNzAuMy0zNC45LTEyNi45LTkzLjMtMTU5LjQtMTY1bDQ0LjItMzZjMTMuOS0xMS4zIDE4LjYtMzAuNCAxMS44LTQ3eiIvPjwvc3ZnPg==")}
+.fa-solid.fa-receipt{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMTQgMi4yYzguNS0zLjkgMTguNS0yLjUgMjUuNiAzLjZMODAgNDAuNGw0MC40LTM0LjZjOS03LjcgMjIuMy03LjcgMzEuMiAwTDE5MiA0MC40bDQwLjQtMzQuNmM5LTcuNyAyMi4yLTcuNyAzMS4yIDBMMzA0IDQwLjRsNDAuNC0zNC42YzcuMS02LjEgMTcuMS03LjUgMjUuNi0zLjZzMTQgMTIuNCAxNCAyMS44djQ2NGMwIDkuNC01LjUgMTcuOS0xNCAyMS44cy0xOC41IDIuNS0yNS42LTMuNkwzMDQgNDcxLjZsLTQwLjQgMzQuNmMtOSA3LjctMjIuMiA3LjctMzEuMiAwTDE5MiA0NzEuNmwtNDAuNCAzNC42Yy05IDcuNy0yMi4zIDcuNy0zMS4yIDBMODAgNDcxLjZsLTQwLjQgMzQuNmMtNy4xIDYuMS0xNy4xIDcuNS0yNS42IDMuNlMwIDQ5Ny40IDAgNDg4VjI0QzAgMTQuNiA1LjUgNi4xIDE0IDIuMk0xMDQgMTM2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0aDE3NmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNHpNODAgMzUyYzAgMTMuMyAxMC43IDI0IDI0IDI0aDE3NmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEgxMDRjLTEzLjMgMC0yNCAxMC43LTI0IDI0bTI0LTEyMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGgxNzZjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjR6Ii8+PC9zdmc+")}
+.fa-solid.fa-right-from-bracket{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNTA1IDI3M2M5LjQtOS40IDkuNC0yNC42IDAtMzMuOUwzNjEgOTVjLTYuOS02LjktMTcuMi04LjktMjYuMi01LjJTMzIwIDEwMi4zIDMyMCAxMTJ2ODBIMjA4Yy0yNi41IDAtNDggMjEuNS00OCA0OHYzMmMwIDI2LjUgMjEuNSA0OCA0OCA0OGgxMTJ2ODBjMCA5LjcgNS44IDE4LjUgMTQuOCAyMi4yczE5LjMgMS43IDI2LjItNS4yek0xNjAgOTZjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJIOTZDNDMgMzIgMCA3NSAwIDEyOHYyNTZjMCA1MyA0MyA5NiA5NiA5Nmg2NGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkg5NmMtMTcuNyAwLTMyLTE0LjMtMzItMzJWMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==")}
+.fa-solid.fa-right-to-bracket{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMzQ1IDI3M2M5LjQtOS40IDkuNC0yNC42IDAtMzMuOUwyMDEgOTVjLTYuOS02LjktMTcuMi04LjktMjYuMi01LjJTMTYwIDEwMi4zIDE2MCAxMTJ2ODBINDhjLTI2LjUgMC00OCAyMS41LTQ4IDQ4djMyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4aDExMnY4MGMwIDkuNyA1LjggMTguNSAxNC44IDIyLjJzMTkuMyAxLjcgMjYuMi01LjJ6bTcgMTQzYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMyaDY0YzUzIDAgOTYtNDMgOTYtOTZWMTI4YzAtNTMtNDMtOTYtOTYtOTZoLTY0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMyaDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMydjI1NmMwIDE3LjctMTQuMyAzMi0zMiAzMnoiLz48L3N2Zz4=")}
+.fa-solid.fa-shield-check{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjU2IDBjNC42IDAgOS4yIDEgMTMuNCAyLjlsMTg4LjQgNzkuOWMyMiA5LjMgMzguNCAzMSAzOC4zIDU3LjItLjUgOTkuMi00MS4zIDI4MC43LTIxMy42IDM2My4yLTE2LjcgOC0zNi4xIDgtNTIuOCAwQzU3LjMgNDIwLjcgMTYuNiAyMzkuMiAxNi4xIDE0MGMtLjEtMjYuMiAxNi4zLTQ3LjkgMzguMy01Ny4yTDI0Mi43IDIuOUMyNDYuOSAxIDI1MS40IDAgMjU2IDBtMCA2Ni44djM3OC4xYzEzOC02Ni44IDE3NS4xLTIxNC44IDE3Ni0zMDMuNEwyNTYgNjYuOXoiLz48L3N2Zz4=")}
+.fa-solid.fa-shield-halved{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjU2IDBjNC42IDAgOS4yIDEgMTMuNCAyLjlsMTg4LjQgNzkuOWMyMiA5LjMgMzguNCAzMSAzOC4zIDU3LjItLjUgOTkuMi00MS4zIDI4MC43LTIxMy42IDM2My4yLTE2LjcgOC0zNi4xIDgtNTIuOCAwQzU3LjMgNDIwLjcgMTYuNiAyMzkuMiAxNi4xIDE0MGMtLjEtMjYuMiAxNi4zLTQ3LjkgMzguMy01Ny4yTDI0Mi43IDIuOUMyNDYuOSAxIDI1MS40IDAgMjU2IDBtMCA2Ni44djM3OC4xYzEzOC02Ni44IDE3NS4xLTIxNC44IDE3Ni0zMDMuNEwyNTYgNjYuOXoiLz48L3N2Zz4=")}
+.fa-solid.fa-spinner{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjA4IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEtOTYgMG0wIDQxNmE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxLTk2IDBNNDggMjA4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05Nm0zNjggNDhhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMS05NiAwTTc1IDM2OS4xYTQ4IDQ4IDAgMSAxIDY3LjkgNjcuOUE0OCA0OCAwIDEgMSA3NSAzNjkuMU03NSA3NWE0OCA0OCAwIDEgMSA2Ny45IDY3LjlBNDggNDggMCAxIDEgNzUgNzVtMzYyIDI5NC4xYTQ4IDQ4IDAgMSAxLTY3LjkgNjcuOSA0OCA0OCAwIDEgMSA2Ny45LTY3LjkiLz48L3N2Zz4=")}
+.fa-solid.fa-stopwatch{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMTY4LjUgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGgzMnYyNS4zQzkyLjUgODUuMiA4LjUgMTc2LjggOC41IDI4OGMwIDExOS4zIDk2LjcgMjE2IDIxNiAyMTZzMjE2LTk2LjcgMjE2LTIxNmMwLTM5LjgtMTAuOC03Ny4xLTI5LjYtMTA5LjJsMjguMi0yOC4yYzEyLjUtMTIuNSAxMi41LTMyLjggMC00NS4zcy0zMi44LTEyLjUtNDUuMyAwbC0yMy40IDIzLjRjLTMyLjktMzAuMi03NS4yLTUwLjMtMTIyLTU1LjVWNDcuOWgzMmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGgtMTEyem04MCAxODR2MTA0YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjE4NGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0Ii8+PC9zdmc+")}
+.fa-solid.fa-triangle-exclamation{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjU2IDBjMTQuNyAwIDI4LjIgOC4xIDM1LjIgMjFsMjE2IDQwMGM2LjcgMTIuNCA2LjQgMjcuNC0uOCAzOS41UzQ4Ni4xIDQ4MCA0NzIgNDgwSDQwYy0xNC4xIDAtMjcuMi03LjQtMzQuNC0xOS41cy03LjUtMjcuMS0uOC0zOS41bDIxNi00MDBjNy0xMi45IDIwLjUtMjEgMzUuMi0yMW0wIDM1MmEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjRtMC0xOTJjLTE4LjIgMC0zMi43IDE1LjUtMzEuNCAzMy43bDcuNCAxMDRjLjkgMTIuNSAxMS40IDIyLjMgMjMuOSAyMi4zIDEyLjYgMCAyMy05LjcgMjMuOS0yMi4zbDcuNC0xMDRjMS4zLTE4LjItMTMuMS0zMy43LTMxLjQtMzMuN3oiLz48L3N2Zz4=")}
+.fa-solid.fa-upload{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBkPSJNMjU2IDEwOS4zVjMyMGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMlYxMDkuM2wtNDEuNCA0MS40Yy0xMi41IDEyLjUtMzIuOCAxMi41LTQ1LjMgMHMtMTIuNS0zMi44IDAtNDUuM2w5Ni05NmMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMGw5NiA5NmMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM3MtMzIuOCAxMi41LTQ1LjMgMHpNMjI0IDQwMGM0NC4yIDAgODAtMzUuOCA4MC04MGg4MGMzNS4zIDAgNjQgMjguNyA2NCA2NHYzMmMwIDM1LjMtMjguNyA2NC02NCA2NEg2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjR2LTMyYzAtMzUuMyAyOC43LTY0IDY0LTY0aDgwYzAgNDQuMiAzNS44IDgwIDgwIDgwbTE0NCAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDgiLz48L3N2Zz4=")}
+.fa-solid.fa-user-check{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBkPSJNMjg2IDMwNGM5OC41IDAgMTc4LjMgNzkuOCAxNzguMyAxNzguMyAwIDE2LjQtMTMuMyAyOS43LTI5LjcgMjkuN0g3OGMtMTYuNCAwLTI5LjctMTMuMy0yOS43LTI5LjcgMC05OC41IDc5LjgtMTc4LjMgMTc4LjMtMTc4LjN6bTI5OS43LTE5OC4xYzcuOC0xMC43IDIyLjgtMTMuMSAzMy41LTUuM3MxMy4xIDIyLjggNS4zIDMzLjVMNTIyLjEgMjc0LjljLTQuMiA1LjctMTAuNyA5LjQtMTcuNyA5LjhzLTE0LTIuMi0xOC45LTcuM2wtNDYuNC00OGMtOS4yLTkuNS05LTI0LjcuNi0zMy45IDkuNS05LjIgMjQuNy04LjkgMzMuOS42bDI2LjUgMjcuNCA4NS42LTExNy43ek0yNTYuMyAyNDhhMTIwIDEyMCAwIDEgMSAwLTI0MCAxMjAgMTIwIDAgMSAxIDAgMjQwIi8+PC9zdmc+")}
+.fa-solid.fa-user-pen{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBkPSJNMjU2LjEgMjQ4YTEyMCAxMjAgMCAxIDAgMC0yNDAgMTIwIDEyMCAwIDEgMCAwIDI0MG0tMjkuNyA1NmMtOTguNSAwLTE3OC4zIDc5LjgtMTc4LjMgMTc4LjMgMCAxNi40IDEzLjMgMjkuNyAyOS43IDI5LjdoMTk2LjVsMTAuOS01NC41YzQuMy0yMS43IDE1LTQxLjYgMzAuNi01Ny4ybDY3LjMtNjcuM2MtMjgtMTguMy02MS40LTI4LjktOTcuNC0yOC45aC01OS40em0xMDUuOSAxNjIuOS0xMS45IDU5LjZjLS4yLjktLjMgMS45LS4zIDIuOSAwIDggNi41IDE0LjYgMTQuNiAxNC42IDEgMCAxLjktLjEgMi45LS4zbDU5LjYtMTEuOWMxMi40LTIuNSAyMy44LTguNiAzMi43LTE3LjVsMTE4LjktMTE4LjktODAtODAtMTE4LjkgMTE4LjljLTguOSA4LjktMTUgMjAuMy0xNy41IDMyLjd6bTI2Ny44LTEyM2MyMi4xLTIyLjEgMjIuMS01Ny45IDAtODBzLTU3LjktMjIuMS04MCAwbC0yOC44IDI4LjggODAgODB6Ii8+PC9zdmc+")}
+.fa-solid.fa-user-shield{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNMjI0IDI0OGExMjAgMTIwIDAgMSAwIDAtMjQwIDEyMCAxMjAgMCAxIDAgMCAyNDBtLTI5LjcgNTZDOTUuOCAzMDQgMTYgMzgzLjggMTYgNDgyLjNjMCAxNi40IDEzLjMgMjkuNyAyOS43IDI5LjdoMjUxLjVDMjYxIDQ2OS40IDI0MCA0MTQuNSAyNDAgMzU2LjR2LTMxLjFjMC03LjMgMS0xNC41IDIuOS0yMS4zem0yNTEgMTg0LjUtMTMuMyA2LjNWMzA2LjdsOTYgMzJ2MTkuNmMwIDU1LjgtMzIuMiAxMDYuNS04Mi43IDEzMC4zem0tMjMuNC0yMjktMTEyIDM3LjNjLTEzLjEgNC40LTIxLjkgMTYuNi0yMS45IDMwLjR2MzEuMWMwIDc0LjQgNDMgMTQyLjEgMTEwLjIgMTczLjdsMTguNSA4LjdjNC44IDIuMiAxMCAzLjQgMTUuMiAzLjRzMTAuNS0xLjIgMTUuMi0zLjRsMTguNS04LjdDNTMzIDUwMC4zIDU3NiA0MzIuNiA1NzYgMzU4LjJ2LTMxLjFjMC0xMy44LTguOC0yNi0yMS45LTMwLjRsLTExMi0zNy4zYy02LjYtMi4yLTEzLjctMi4yLTIwLjIgMHoiLz48L3N2Zz4=")}
+.fa-solid.fa-video{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBkPSJNOTYgNjRjLTM1LjMgMC02NCAyOC43LTY0IDY0djI1NmMwIDM1LjMgMjguNyA2NCA2NCA2NGgyNTZjMzUuMyAwIDY0LTI4LjcgNjQtNjRWMTI4YzAtMzUuMy0yOC43LTY0LTY0LTY0em0zNjggMjcyIDczLjUgNTguOGM0LjIgMy40IDkuNCA1LjIgMTQuOCA1LjIgMTMuMSAwIDIzLjctMTAuNiAyMy43LTIzLjdWMTM1LjdjMC0xMy4xLTEwLjYtMjMuNy0yMy43LTIzLjctNS40IDAtMTAuNiAxLjgtMTQuOCA1LjJMNDY0IDE3NnoiLz48L3N2Zz4=")}
+.fa-solid.fa-wallet{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NnYyODhjMCAzNS4zIDI4LjcgNjQgNjQgNjRoMzg0YzM1LjMgMCA2NC0yOC43IDY0LTY0VjE5MmMwLTM1LjMtMjguNy02NC02NC02NEg3MmMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGgzODRjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjR6bTM1MiAyMjRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0Ii8+PC9zdmc+")}
+.fa-solid.fa-xmark{--fa:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNNTUuMSA3My40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMHMtMTIuNSAzMi44IDAgNDUuM0wxNDcuMiAyNTYgOS45IDM5My40Yy0xMi41IDEyLjUtMTIuNSAzMi44IDAgNDUuM3MzMi44IDEyLjUgNDUuMyAwbDEzNy4zLTEzNy40IDEzNy40IDEzNy4zYzEyLjUgMTIuNSAzMi44IDEyLjUgNDUuMyAwczEyLjUtMzIuOCAwLTQ1LjNMMjM3LjggMjU2bDEzNy4zLTEzNy40YzEyLjUtMTIuNSAxMi41LTMyLjggMC00NS4zcy0zMi44LTEyLjUtNDUuMyAwTDE5Mi41IDIxMC43eiIvPjwvc3ZnPg==")}
+    </style>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background-color: #0f172a; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .animate-marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-slide-down {
+            animation: slideDown 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes scanLaser {
+            0% { top: 10%; opacity: 0.8; }
+            50% { top: 90%; opacity: 1; }
+            100% { top: 10%; opacity: 0.8; }
+        }
+        .animate-scan-laser {
+            animation: scanLaser 2.2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-800 min-h-screen flex justify-center items-center p-0 sm:p-4">
+
+    <!-- MOBILE CONTAINER -->
+    <div id="app-container" class="w-full max-w-[430px] bg-[#FBF9F1] min-h-screen sm:min-h-[880px] sm:max-h-[920px] sm:rounded-[44px] shadow-2xl overflow-hidden relative border-0 sm:border-[8px] sm:border-slate-800 flex flex-col justify-between">
+
+        <!-- SYSTEM PUSH NOTIFICATION BANNER -->
+        <div id="system-notification" class="absolute top-2 left-3 right-3 z-50 bg-slate-900/95 text-white p-3.5 rounded-2xl shadow-2xl backdrop-blur-md border border-slate-700 hidden animate-slide-down">
+            <div class="flex items-start space-x-3">
+                <div class="w-9 h-9 rounded-xl bg-amber-500/20 border border-amber-500/40 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-bell-ring text-base animate-bounce"></i>
+                </div>
+                <div class="flex-1">
+                    <div class="flex justify-between items-center">
+                        <span class="text-[10px] font-bold text-slate-400 tracking-wider uppercase">FlexiDana System Notice</span>
+                        <span class="text-[9px] text-slate-400">Baru Saja</span>
+                    </div>
+                    <h5 id="notif-title" class="text-xs font-bold text-amber-300 mt-0.5">Peringatan Tagihan Jatuh Tempo</h5>
+                    <p id="notif-body" class="text-[11px] text-slate-300 mt-0.5 leading-tight">
+                        Tagihan Anda akan jatuh tempo sesuai jadwal. Segera lakukan pembayaran untuk menghentikan denda harian.
+                    </p>
+                </div>
+                <button onclick="hidePushNotif()" class="text-slate-400 hover:text-white text-xs p-1">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="mt-2.5 pt-2 border-t border-slate-800 flex justify-end gap-2">
+                <button id="notif-pay-btn" onclick="payBillFromNotif()" class="bg-brand-500 hover:bg-brand-600 text-white font-bold text-[10px] px-3 py-1.5 rounded-lg transition">
+                    Bayar Sekarang
+                </button>
+            </div>
+        </div>
+
+        <!-- HEADER / TOP BAR -->
+        <header id="main-header" class="bg-[#FBF9F1] px-5 pt-7 pb-2 relative z-10 flex flex-col gap-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-9 h-9 bg-brand-500 rounded-2xl flex items-center justify-center text-white shadow-md shadow-brand-500/30 transform -rotate-6">
+                        <i class="fa-solid fa-bolt-lightning text-lg transform rotate-6"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-extrabold text-slate-900 tracking-tight leading-none">flexidana</h1>
+                        <div class="flex items-center gap-1.5 mt-0.5">
+                            <span class="text-[9px] text-slate-500 font-bold">TKB90 = 100%</span>
+                            <span class="text-[8px] bg-slate-200 text-slate-700 px-1.5 rounded font-extrabold">OJK REGULATED</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleDirectorPanel()" class="bg-amber-100 hover:bg-amber-200 text-amber-900 px-2.5 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 border border-amber-300 shadow-sm transition">
+                        <i class="fa-solid fa-clapperboard text-amber-600"></i>
+                        <span class="text-[10px]">Sutradara</span>
+                    </button>
+                    <button onclick="triggerNotification('Pengingat Tagihan', 'Tagihan ' + rp(currentBill) + ' jatuh tempo ' + fmtDue(dueAt))" class="w-8 h-8 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-700 relative shadow-sm">
+                        <i class="fa-regular fa-bell text-sm"></i>
+                        <span id="notif-dot" class="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full animate-ping"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white/90 border border-emerald-100 rounded-full py-1 px-3 flex items-center space-x-2 shadow-sm overflow-hidden">
+                <i class="fa-solid fa-shield-halved text-brand-500 text-xs shrink-0"></i>
+                <div class="overflow-hidden w-full text-[10px] text-slate-600 font-medium whitespace-nowrap">
+                    <span class="animate-marquee">
+                        PT FlexiDana Indonesia berizin & diawasi OJK (No: KEP-88/D.05/2024). Hindari Pinjol Ilegal. Pertimbangkan kemampuan membayar sebelum melakukan transaksi.
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- LOGIN SCREEN -->
+        <section id="login-flow" class="flex-1 overflow-y-auto hide-scrollbar px-6 py-6 flex flex-col justify-between bg-[#FBF9F1]">
+            <div class="space-y-6 my-auto">
+                <div class="text-center space-y-3">
+                    <div class="w-16 h-16 bg-brand-500 rounded-3xl flex items-center justify-center text-white shadow-xl shadow-brand-500/30 transform -rotate-6 mx-auto">
+                        <i class="fa-solid fa-bolt-lightning text-3xl transform rotate-6"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">flexidana</h1>
+                        <p class="text-xs text-slate-500 font-medium mt-1">Solusi Pembiayaan Digital Aman & Terpercaya OJK</p>
+                    </div>
+                </div>
+
+                <div id="login-step-phone" class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm space-y-4">
+                    <div>
+                        <label class="text-[11px] font-extrabold text-slate-700 block mb-1.5 uppercase tracking-wider">Nomor Handphone</label>
+                        <div class="flex items-center space-x-2 bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2.5 focus-within:border-brand-500 focus-within:bg-white transition">
+                            <span class="text-xs font-bold text-slate-600 bg-slate-200/80 px-2 py-1 rounded-lg">+62</span>
+                            <input type="tel" id="login-input-phone" value="81234567890" placeholder="812-3456-7890" class="w-full bg-transparent text-xs text-slate-900 font-bold focus:outline-none">
+                        </div>
+                        <p class="text-[10px] text-slate-400 mt-1">Kode OTP akan dikirimkan via SMS / WhatsApp</p>
+                    </div>
+
+                    <button onclick="requestLoginOtp()" class="w-full bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-xs py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2">
+                        <span>Kirim Kode OTP</span>
+                        <i class="fa-solid fa-paper-plane text-xs"></i>
+                    </button>
+                </div>
+
+                <div id="login-step-otp" class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm space-y-4 hidden">
+                    <div class="text-center">
+                        <h3 class="text-xs font-bold text-slate-900">Masukkan Kode OTP</h3>
+                        <p class="text-[10px] text-slate-500 mt-0.5">Kode 4-digit dikirim ke <span id="otp-phone-display" class="font-bold text-slate-800">+62 812-3456-7890</span></p>
+                    </div>
+
+                    <div class="flex justify-center space-x-2">
+                        <input type="text" maxlength="1" value="8" class="w-10 h-12 bg-slate-50 border border-slate-300 rounded-xl text-center text-lg font-black text-slate-900 focus:border-brand-500 focus:outline-none">
+                        <input type="text" maxlength="1" value="8" class="w-10 h-12 bg-slate-50 border border-slate-300 rounded-xl text-center text-lg font-black text-slate-900 focus:border-brand-500 focus:outline-none">
+                        <input type="text" maxlength="1" value="8" class="w-10 h-12 bg-slate-50 border border-slate-300 rounded-xl text-center text-lg font-black text-slate-900 focus:border-brand-500 focus:outline-none">
+                        <input type="text" maxlength="1" value="8" class="w-10 h-12 bg-slate-50 border border-slate-300 rounded-xl text-center text-lg font-black text-slate-900 focus:border-brand-500 focus:outline-none">
+                    </div>
+
+                    <button onclick="verifyLoginOtp()" class="w-full bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-xs py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2">
+                        <span>Verifikasi & Masuk</span>
+                        <i class="fa-solid fa-right-to-bracket text-xs"></i>
+                    </button>
+
+                    <div class="text-center">
+                        <button onclick="showLoginPhoneStep()" class="text-[10px] text-slate-400 hover:text-slate-600 font-bold underline">Ubah Nomor HP</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center space-y-2 pt-4">
+                <p class="text-[10px] text-slate-400 leading-tight">
+                    Dengan masuk, Anda menyetujui <span class="text-slate-600 font-bold">Syarat & Ketentuan</span> serta <span class="text-slate-600 font-bold">Kebijakan Privasi</span> FlexiDana OJK.
+                </p>
+                <button onclick="completeOnboardingAndEnterLobby()" class="text-[10px] text-slate-400 hover:text-slate-600 font-bold underline">
+                    [Bypass Langsung Ke Lobby Utama untuk Syuting]
+                </button>
+            </div>
+        </section>
+
+        <!-- ONBOARDING / KYC FLOW -->
+        <section id="onboarding-flow" class="flex-1 overflow-y-auto hide-scrollbar px-5 py-4 space-y-4 bg-[#FBF9F1] hidden">
+            <div class="bg-white rounded-3xl p-4 border border-slate-100 shadow-sm space-y-2">
+                <div class="flex justify-between items-center text-xs">
+                    <span id="onboarding-step-title" class="font-extrabold text-slate-900">Langkah 1: Pindai e-KTP</span>
+                    <span id="onboarding-step-indicator" class="font-bold text-brand-600 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">1/3</span>
+                </div>
+                <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                    <div id="onboarding-progress-bar" class="bg-brand-500 h-full rounded-full transition-all duration-300 w-1/3"></div>
+                </div>
+            </div>
+
+            <!-- STEP 1: KTP -->
+            <div id="onboard-step-1" class="space-y-4">
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm space-y-3">
+                    <div class="text-center space-y-1">
+                        <div class="w-12 h-12 bg-emerald-50 text-brand-600 rounded-2xl mx-auto flex items-center justify-center text-xl font-bold">
+                            <i class="fa-solid fa-id-card"></i>
+                        </div>
+                        <h3 class="text-xs font-extrabold text-slate-900">Pindai / Unggah Foto e-KTP</h3>
+                        <p class="text-[10px] text-slate-400">Pastikan seluruh bagian e-KTP berada di dalam bingkai & terbaca jelas</p>
+                    </div>
+
+                    <div class="relative w-full h-48 bg-slate-900 rounded-2xl overflow-hidden border-2 border-dashed border-slate-700 flex items-center justify-center">
+                        <video id="onboard-ktp-video" class="w-full h-full object-cover" autoplay playsinline muted></video>
+                        <img id="onboard-ktp-preview" class="w-full h-full object-cover hidden" alt="KTP Preview">
+                        
+                        <div id="onboard-ktp-overlay" class="absolute inset-0 border-2 border-brand-500/80 m-4 rounded-xl pointer-events-none flex flex-col justify-between p-2">
+                            <div class="w-full h-0.5 bg-brand-500/80 shadow-[0_0_8px_#00D154] animate-scan-laser"></div>
+                            <p class="text-[9px] text-brand-300 bg-slate-900/80 backdrop-blur px-2 py-0.5 rounded-full mx-auto font-mono">Posisikan KTP Di Sini</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2 pt-1">
+                        <label class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs py-2.5 rounded-xl cursor-pointer text-center transition flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-upload text-slate-500"></i>
+                            <span>Unggah Dari Galeri</span>
+                            <input type="file" accept="image/*" class="hidden" onchange="handleKtpFileUpload(event)">
+                        </label>
+                        <button onclick="triggerOnboardKtpCamera()" class="bg-emerald-50 hover:bg-emerald-100 text-brand-700 font-bold text-xs p-2.5 rounded-xl transition">
+                            <i class="fa-solid fa-camera"></i>
+                        </button>
+                    </div>
+
+                    <div id="onboard-ocr-data" class="hidden bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-left space-y-1">
+                        <div class="flex items-center space-x-2 text-emerald-800 font-bold text-xs">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Sistem OCR Berhasil Membaca KTP</span>
+                        </div>
+                        <p class="text-[10px] text-slate-600">NIK: <strong class="font-mono text-slate-900">3302198804120004</strong></p>
+                        <p class="text-[10px] text-slate-600">Nama: <strong class="text-slate-900">BUDI SANTOSO</strong></p>
+                    </div>
+                </div>
+
+                <button onclick="nextOnboardingStep(2)" class="w-full bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-xs py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2">
+                    <span>Verifikasi Data Diri</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- STEP 2: PERSONAL FORM -->
+            <div id="onboard-step-2" class="space-y-4 hidden">
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm space-y-3">
+                    <div class="flex items-center space-x-2.5 border-b border-slate-100 pb-2">
+                        <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-sm font-bold">
+                            <i class="fa-solid fa-user-pen"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-extrabold text-slate-900">Informasi Diri & Dukcapil</h3>
+                            <p class="text-[10px] text-slate-400">Pastikan data sesuai dokumen fisik KTP</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2.5">
+                        <div>
+                            <label class="text-[10px] font-bold text-slate-500 block mb-1">Nomor Induk Kependudukan (NIK)</label>
+                            <input type="text" id="ob-input-nik" value="3302198804120004" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-900 font-bold focus:border-brand-500 focus:outline-none">
+                        </div>
+
+                        <div>
+                            <label class="text-[10px] font-bold text-slate-500 block mb-1">Nama Lengkap Sesuai KTP</label>
+                            <input type="text" id="ob-input-nama" value="Budi Santoso" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-900 font-bold focus:border-brand-500 focus:outline-none">
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>
+                                <label class="text-[10px] font-bold text-slate-500 block mb-1">Tanggal Lahir</label>
+                                <input type="text" id="ob-input-tgllahir" value="12/04/1988" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-900 font-bold focus:border-brand-500 focus:outline-none">
+                            </div>
+                            <div>
+                                <label class="text-[10px] font-bold text-slate-500 block mb-1">Pekerjaan</label>
+                                <input type="text" value="Karyawan Swasta" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-900 font-bold focus:border-brand-500 focus:outline-none">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="text-[10px] font-bold text-slate-500 block mb-1">Alamat Tinggal Sekarang</label>
+                            <textarea class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2 text-xs text-slate-900 font-bold h-12 focus:border-brand-500 focus:outline-none">Jl. Kebon Jeruk No. 45, RT 02/05, Jakarta Barat</textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-2">
+                    <button onclick="nextOnboardingStep(1)" class="w-1/3 bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs py-3.5 rounded-2xl transition">
+                        Kembali
+                    </button>
+                    <button onclick="nextOnboardingStep(3)" class="w-2/3 bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-xs py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2">
+                        <span>Lanjut Verifikasi Wajah</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- STEP 3: BIOMETRIC FACE -->
+            <div id="onboard-step-3" class="space-y-4 hidden">
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm text-center space-y-3">
+                    <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl mx-auto flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-extrabold text-slate-900">Verifikasi Biometrik Wajah</h3>
+                        <p class="text-[11px] text-slate-500 mt-0.5">Posisikan wajah tepat di lingkaran dan kedipkan mata untuk pemindaian otomatis</p>
+                    </div>
+
+                    <div class="relative w-full h-56 bg-slate-900 rounded-2xl overflow-hidden border-2 border-slate-800 flex items-center justify-center">
+                        <video id="onboard-face-video" class="w-full h-full object-cover" autoplay playsinline muted></video>
+                        <canvas id="face-analysis-canvas" class="hidden"></canvas>
+                        
+                        <div id="face-liveness-oval" class="absolute w-36 h-48 border-4 border-amber-400 rounded-full pointer-events-none flex flex-col items-center justify-between py-3 transition-colors duration-300">
+                            <span id="liveness-blink-badge" class="bg-slate-950/80 text-amber-300 font-extrabold text-[9px] px-2.5 py-0.5 rounded-full backdrop-blur flex items-center gap-1">
+                                <i class="fa-solid fa-eye animate-pulse"></i> Kedipkan Mata
+                            </span>
+                            
+                            <div id="scan-sync-indicator" class="hidden text-center bg-slate-950/90 text-emerald-400 px-2 py-1 rounded-lg border border-emerald-500/40">
+                                <i class="fa-solid fa-arrows-rotate animate-spin text-xs"></i>
+                                <p class="text-[8px] font-mono font-bold mt-0.5">Menyinkronkan dengan KTP...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="face-match-status" class="hidden bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-left">
+                        <div class="flex items-center space-x-2 text-emerald-700 font-bold text-xs">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-sm"></i>
+                            <span>Pencocokan Biometrik 100% Cocok Dengan KTP</span>
+                        </div>
+                        <p class="text-[10px] text-slate-600 mt-1" id="face-match-details">
+                            Data Wajah Terkonfirmasi Sinkron dengan NIK: <strong class="font-mono text-slate-900">3302198804120004</strong>
+                        </p>
+                    </div>
+
+                    <button onclick="triggerOnboardFaceCamera()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold py-2.5 rounded-xl transition flex items-center justify-center gap-1.5">
+                        <i class="fa-solid fa-video"></i>
+                        <span>Aktifkan Kamera Selfie & Pemindai Kedip</span>
+                    </button>
+                </div>
+
+                <div class="flex gap-2">
+                    <button onclick="nextOnboardingStep(2)" class="w-1/3 bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs py-3.5 rounded-2xl transition">
+                        Kembali
+                    </button>
+                    <button onclick="completeOnboardingAndEnterLobby()" id="btn-finish-kyc" class="w-2/3 bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-xs py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Selesaikan & Masuk Lobby</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="text-center pt-2">
+                <button onclick="completeOnboardingAndEnterLobby()" class="text-[10px] text-slate-400 hover:text-slate-600 font-bold underline">
+                    [Bypass Langsung Ke Lobby Utama untuk Syuting]
+                </button>
+            </div>
+        </section>
+
+        <!-- MAIN LOBBY PAGES -->
+        <main id="main-lobby" class="flex-1 overflow-y-auto hide-scrollbar px-4 pb-20 space-y-4 hidden">
+
+            <!-- TAB 1: HOME -->
+            <div id="page-home" class="space-y-4 pt-2">
+                <section class="bg-white rounded-3xl p-5 shadow-sm border border-slate-100/90 relative overflow-hidden">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <p class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Maksimum Limit Kredit</p>
+                            <h2 class="text-3xl font-black text-slate-900 tracking-tight my-1" id="display-limit">
+                                Rp 100.000.000
+                            </h2>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-[9px] bg-emerald-100 text-emerald-800 font-extrabold px-2 py-1 rounded-full border border-emerald-300">
+                                Skor Kredit: EXCELLENT
+                            </span>
+                        </div>
+                    </div>
+
+                    <div id="kyc-badge-container" class="my-3 p-3 bg-emerald-50 rounded-2xl border border-emerald-200/80 flex items-center justify-between">
+                        <div class="flex items-center space-x-2.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-500 text-white flex items-center justify-center font-bold text-xs">
+                                <i class="fa-solid fa-user-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-900" id="kyc-status-title">Verifikasi Identitas Selesai</h4>
+                                <p class="text-[10px] text-slate-500" id="kyc-status-sub">NIK: 3302198804120004 (OJK Level 3)</p>
+                            </div>
+                        </div>
+                        <button onclick="switchTab('kyc')" class="text-[11px] font-extrabold text-brand-600 hover:underline">
+                            Detail
+                        </button>
+                    </div>
+
+                    <button onclick="handleMainCTA()" id="main-cta-btn" class="w-full bg-brand-500 hover:bg-brand-600 active:scale-[0.98] text-white font-extrabold text-sm py-3.5 rounded-2xl shadow-lg shadow-brand-500/30 transition-all flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>Adukan Pencairan / Tarik Limit</span>
+                    </button>
+
+                    <div class="grid grid-cols-2 gap-3 mt-5 pt-4 border-t border-slate-100 text-left">
+                        <div class="flex items-center space-x-2.5">
+                            <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs shrink-0">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-[11px] font-bold text-slate-800">Lisensi OJK</h4>
+                                <p class="text-[9px] text-slate-400">P2P Lending Resmi</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2.5">
+                            <div class="w-8 h-8 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xs shrink-0">
+                                <i class="fa-solid fa-percent"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-[11px] font-bold text-slate-800">Bunga Bintang</h4>
+                                <p class="text-[9px] text-slate-400">0,03% Per Hari</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="warning-banner" class="bg-amber-50 border border-amber-200 rounded-2xl p-4 hidden">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-8 h-8 rounded-xl bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <div>
+                            <h4 id="banner-title" class="text-xs font-bold text-amber-900">Tagihan Jatuh Tempo</h4>
+                            <p class="text-[11px] text-amber-800 mt-0.5 leading-tight">
+                                Cicilan Gadget Pro sebesar <span class="font-bold">Rp 1.150.000</span> harus dibayar sebelum <span id="banner-due" class="font-bold">-</span> untuk menghindari denda harian 0.1%.
+                            </p>
+                            <button onclick="openModal('bayar')" class="mt-2.5 bg-amber-600 hover:bg-amber-700 text-white font-bold px-4 py-1.5 rounded-xl text-xs transition shadow-sm">
+                                Bayar Tagihan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-4 gap-2.5">
+                    <button onclick="openModal('bayar')" class="flex flex-col items-center bg-white hover:bg-slate-50 p-3 rounded-2xl border border-slate-100 shadow-sm transition">
+                        <div class="w-10 h-10 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-base mb-1">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700">Bayar</span>
+                    </button>
+                    <button onclick="openModal('tarik')" class="flex flex-col items-center bg-white hover:bg-slate-50 p-3 rounded-2xl border border-slate-100 shadow-sm transition">
+                        <div class="w-10 h-10 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-base mb-1">
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700">Tarik Cash</span>
+                    </button>
+                    <button onclick="openModal('simulasi')" class="flex flex-col items-center bg-white hover:bg-slate-50 p-3 rounded-2xl border border-slate-100 shadow-sm transition">
+                        <div class="w-10 h-10 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-base mb-1">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700">Simulasi</span>
+                    </button>
+                    <button onclick="openModal('riwayat')" class="flex flex-col items-center bg-white hover:bg-slate-50 p-3 rounded-2xl border border-slate-100 shadow-sm transition">
+                        <div class="w-10 h-10 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-base mb-1">
+                            <i class="fa-solid fa-receipt"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700">Riwayat</span>
+                    </button>
+                </div>
+
+                <section class="bg-white rounded-3xl p-4 border border-slate-100 shadow-sm space-y-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xs font-bold text-slate-800">Tagihan Aktif Saya</h3>
+                        <span onclick="openModal('riwayat')" class="text-[10px] text-brand-600 font-bold cursor-pointer hover:underline">Lihat Rincian</span>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-2xl p-3 flex items-center justify-between border border-slate-100">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xs font-bold">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-900">Cicilan Gadget Pro</h4>
+                                <p class="text-[10px] text-slate-400">Tenor 3/6 • Jatuh tempo: <b id="due-label" class="text-slate-600">-</b></p>
+                                <button onclick="openModal('jatuhtempo')" class="mt-1 text-[10px] font-bold text-brand-600 hover:underline"><i class="fa-regular fa-calendar"></i> Atur jatuh tempo</button>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-xs font-extrabold text-slate-900" id="bill-amount-display">Rp 1.150.000</span>
+                            <button onclick="openModal('bayar')" class="mt-1 bg-slate-900 hover:bg-slate-800 text-white text-[10px] font-bold px-3 py-1 rounded-lg transition">
+                                Bayar
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 2: KYC -->
+            <div id="page-kyc" class="hidden space-y-4 pt-2">
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm space-y-3">
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-3">
+                        <div>
+                            <h3 class="text-sm font-extrabold text-slate-900">Pusat Verifikasi Identitas (KYC)</h3>
+                            <p class="text-[10px] text-slate-500 mt-0.5">Lengkapi 4 langkah untuk pengajuan limit hingga Rp 100 Juta</p>
+                        </div>
+                        <span class="bg-emerald-100 text-emerald-800 text-[10px] font-black px-2.5 py-1 rounded-full border border-emerald-300" id="kyc-percent-badge">
+                            100% Selesai
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-4 gap-1.5 pt-1">
+                        <div class="h-1.5 bg-brand-500 rounded-full" id="bar-step-1"></div>
+                        <div class="h-1.5 bg-brand-500 rounded-full" id="bar-step-2"></div>
+                        <div class="h-1.5 bg-brand-500 rounded-full" id="bar-step-3"></div>
+                        <div class="h-1.5 bg-brand-500 rounded-full" id="bar-step-4"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-3">
+                    <div class="bg-white p-4 rounded-3xl border border-slate-100 shadow-sm flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-9 h-9 rounded-2xl bg-emerald-500 text-white flex items-center justify-center text-sm font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-900">1. Foto e-KTP & OCR</h4>
+                                <p class="text-[10px] text-slate-400">Foto e-KTP Asli Terpindai & Terbaca</p>
+                            </div>
+                        </div>
+                        <button onclick="showOnboardingFlow()" class="bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold px-3 py-1.5 rounded-xl transition">
+                            Ulangi
+                        </button>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-3xl border border-slate-100 shadow-sm flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-9 h-9 rounded-2xl bg-emerald-500 text-white flex items-center justify-center text-sm font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-900">2. Verifikasi NIK & Form Diri</h4>
+                                <p class="text-[10px] text-slate-400">3302198804120004 (Valid Dukcapil)</p>
+                            </div>
+                        </div>
+                        <button onclick="showOnboardingFlow()" class="bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold px-3 py-1.5 rounded-xl transition">
+                            Edit Data
+                        </button>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-3xl border border-slate-100 shadow-sm flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-9 h-9 rounded-2xl bg-emerald-500 text-white flex items-center justify-center text-sm font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-900">3. Verifikasi Biometrik Wajah</h4>
+                                <p class="text-[10px] text-slate-400">Liveness & Deteksi Kedip Berhasil</p>
+                            </div>
+                        </div>
+                        <button onclick="showOnboardingFlow()" class="bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold px-3 py-1.5 rounded-xl transition">
+                            Ulangi
+                        </button>
+                    </div>
+                </div>
+
+                <button onclick="showOnboardingFlow()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-extrabold py-3.5 rounded-2xl text-xs transition shadow-lg shadow-brand-500/20 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <span>Mulai Ulang Alur Verifikasi Lengkap</span>
+                </button>
+            </div>
+
+            <!-- TAB 3: PROFILE -->
+            <div id="page-profile" class="hidden space-y-4 pt-2">
+                <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-5 shadow-lg relative overflow-hidden">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-14 h-14 rounded-full bg-brand-500 text-white font-black text-xl flex items-center justify-center border-2 border-white/40 shadow-inner shrink-0" id="profile-avatar">
+                            BS
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <h3 class="text-base font-extrabold text-white" id="profile-user-name">Budi Santoso</h3>
+                                <span class="bg-amber-400 text-slate-900 text-[9px] px-2 py-0.5 rounded-full font-black">PLATINUM</span>
+                            </div>
+                            <p class="text-xs text-slate-300 font-mono mt-0.5" id="profile-nik-display">NIK: 3302198804120004</p>
+                            <p class="text-[10px] text-slate-400 mt-0.5"><i class="fa-solid fa-phone text-[9px]"></i> +62 812-3456-7890</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-3 border-t border-slate-700/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-300">Status Pengawas OJK:</span>
+                        <span class="text-emerald-400 font-bold flex items-center gap-1">
+                            <i class="fa-solid fa-shield-check"></i> Akun Terverifikasi
+                        </span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden divide-y divide-slate-100">
+                    <button onclick="openModal('riwayat')" class="w-full p-4 text-left flex justify-between items-center hover:bg-slate-50 transition">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xs">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                            </div>
+                            <span class="text-xs font-bold text-slate-800">Riwayat Transaksi & Cicilan</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-right text-slate-300 text-xs"></i>
+                    </button>
+
+                    <button onclick="enableDeviceNotifications()" class="w-full p-4 text-left flex justify-between items-center hover:bg-slate-50 transition">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xs">
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                            <span class="text-xs font-bold text-slate-800">Notifikasi HP</span>
+                        </div>
+                        <span id="notif-status-label" class="text-[10px] font-bold text-slate-400">Belum aktif</span>
+                    </button>
+
+                    <button onclick="showOnboardingFlow()" class="w-full p-4 text-left flex justify-between items-center hover:bg-slate-50 transition">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xs">
+                                <i class="fa-solid fa-id-card"></i>
+                            </div>
+                            <span class="text-xs font-bold text-slate-800">Ulangi Verifikasi KTP & Wajah</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-right text-slate-300 text-xs"></i>
+                    </button>
+
+                    <button onclick="toggleDirectorPanel()" class="w-full p-4 text-left flex justify-between items-center hover:bg-slate-50 transition">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xs">
+                                <i class="fa-solid fa-clapperboard"></i>
+                            </div>
+                            <span class="text-xs font-bold text-slate-800">Panel Sutradara (Film Props)</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-right text-slate-300 text-xs"></i>
+                    </button>
+
+                    <button onclick="logoutAccount()" class="w-full p-4 text-left flex justify-between items-center hover:bg-red-50 text-red-600 transition">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-xs">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </div>
+                            <span class="text-xs font-bold">Keluar / Log Out</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-right text-red-300 text-xs"></i>
+                    </button>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- NAVIGATION BAR -->
+        <nav id="bottom-nav" class="bg-white/95 backdrop-blur-md border-t border-slate-100 px-8 py-2.5 flex justify-between items-center absolute bottom-0 left-0 right-0 z-20 hidden">
+            <button onclick="switchTab('home')" id="nav-home" class="flex flex-col items-center text-brand-500 space-y-1 transition">
+                <i class="fa-solid fa-wallet text-lg"></i>
+                <span class="text-[10px] font-bold">Pinjaman</span>
+            </button>
+
+            <button onclick="switchTab('kyc')" id="nav-kyc" class="flex flex-col items-center text-slate-400 hover:text-slate-600 space-y-1 transition">
+                <i class="fa-solid fa-id-card text-lg"></i>
+                <span class="text-[10px] font-bold">Autentikasi</span>
+            </button>
+
+            <button onclick="switchTab('profile')" id="nav-profile" class="flex flex-col items-center text-slate-400 hover:text-slate-600 space-y-1 transition">
+                <i class="fa-regular fa-user text-lg"></i>
+                <span class="text-[10px] font-bold">Saya</span>
+            </button>
+        </nav>
+
+    </div>
+
+    <!-- DIRECTOR PANEL MODAL -->
+    <div id="director-panel" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-brand-500/40 rounded-3xl w-full max-w-sm p-5 shadow-2xl relative space-y-4 text-white">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-clapperboard text-brand-500 text-lg"></i>
+                    <h3 class="font-bold text-white text-base">Panel Sutradara (Properti Film)</h3>
+                </div>
+                <button onclick="toggleDirectorPanel()" class="text-slate-400 hover:text-white text-base font-bold">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <p class="text-xs text-slate-300">
+                Kontrol kondisi tampilan aplikasi secara instan untuk pengambilan adegan syuting:
+            </p>
+
+            <div class="space-y-2.5">
+                <button onclick="showLoginFlow(); toggleDirectorPanel();" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold p-3 rounded-xl text-left text-xs flex justify-between items-center border border-slate-700">
+                    <span>1. Tampilkan Halaman Login / Masuk</span>
+                    <span class="text-[10px] bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded">Login</span>
+                </button>
+
+                <button onclick="showOnboardingFlow(); toggleDirectorPanel();" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold p-3 rounded-xl text-left text-xs flex justify-between items-center border border-slate-700">
+                    <span>2. Buka Alur Verifikasi KTP/Wajah Awal</span>
+                    <span class="text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded">Awal</span>
+                </button>
+
+                <button onclick="setFilmState('normal')" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold p-3 rounded-xl text-left text-xs flex justify-between items-center border border-slate-700">
+                    <span>3. Mode Lobby / Limit Rp 100 Juta</span>
+                    <span class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded">Aman</span>
+                </button>
+
+                <button onclick="setFilmState('overdue')" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold p-3 rounded-xl text-left text-xs flex justify-between items-center border border-slate-700">
+                    <span>4. Mode Tagihan Jatuh Tempo + Notifikasi</span>
+                    <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded">Warning</span>
+                </button>
+            </div>
+
+            <button onclick="toggleDirectorPanel();openModal('jatuhtempo')" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold p-3 rounded-xl text-left text-xs flex justify-between items-center border border-slate-700 mb-3">
+                <span>5. Atur Tanggal &amp; Jam Jatuh Tempo</span>
+                <span class="text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded">Jadwal</span>
+            </button>
+
+            <div class="pt-2 border-t border-slate-800 flex justify-end">
+                <button onclick="toggleDirectorPanel()" class="bg-brand-500 hover:bg-brand-600 text-white font-bold px-4 py-2 rounded-xl text-xs transition">
+                    Tutup Panel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- DYNAMIC ACTION MODAL -->
+    <div id="action-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-3xl w-full max-w-sm p-5 shadow-2xl relative max-h-[92vh] overflow-y-auto">
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT APP LOGIC -->
+    <script>
+        // Global Application State
+        let currentLimit = 100000000;
+        let currentBill = 1150000;
+        let onboardCameraStream = null;
+        let blinkDetectionInterval = null;
+        let blinkFallbackTimer = null;
+        let lastLuminance = 0;
+        let isFaceMatched = false;
+
+        let userData = {
+            nik: "3302198804120004",
+            nama: "Budi Santoso",
+            tgllahir: "12/04/1988"
+        };
+
+        // LOGIN FLOW LOGIC
+        function showLoginFlow() {
+            stopBlinkDetector();
+            stopOnboardCamera();
+            document.getElementById('login-flow').classList.remove('hidden');
+            document.getElementById('onboarding-flow').classList.add('hidden');
+            document.getElementById('main-lobby').classList.add('hidden');
+            document.getElementById('bottom-nav').classList.add('hidden');
+            document.getElementById('main-header').classList.add('hidden');
+            showLoginPhoneStep();
+        }
+
+        function showLoginPhoneStep() {
+            document.getElementById('login-step-phone').classList.remove('hidden');
+            document.getElementById('login-step-otp').classList.add('hidden');
+        }
+
+        function requestLoginOtp() {
+            const phoneInput = document.getElementById('login-input-phone').value;
+            document.getElementById('otp-phone-display').innerText = `+62 ${phoneInput || '81234567890'}`;
+            document.getElementById('login-step-phone').classList.add('hidden');
+            document.getElementById('login-step-otp').classList.remove('hidden');
+            showPropAlert('Kode OTP 8888 Berhasil Dikirim!');
+        }
+
+        function verifyLoginOtp() {
+            showPropAlert('Login Berhasil!');
+            showOnboardingFlow();
+        }
+
+        // ONBOARDING VERIFICATION LOGIC
+        function showOnboardingFlow() {
+            stopBlinkDetector();
+            document.getElementById('login-flow').classList.add('hidden');
+            document.getElementById('onboarding-flow').classList.remove('hidden');
+            document.getElementById('main-lobby').classList.add('hidden');
+            document.getElementById('bottom-nav').classList.add('hidden');
+            document.getElementById('main-header').classList.remove('hidden');
+            nextOnboardingStep(1);
+        }
+
+        function nextOnboardingStep(step) {
+            stopBlinkDetector();
+            document.getElementById('onboard-step-1').classList.add('hidden');
+            document.getElementById('onboard-step-2').classList.add('hidden');
+            document.getElementById('onboard-step-3').classList.add('hidden');
+
+            const title = document.getElementById('onboarding-step-title');
+            const indicator = document.getElementById('onboarding-step-indicator');
+            const bar = document.getElementById('onboarding-progress-bar');
+
+            if (step === 1) {
+                document.getElementById('onboard-step-1').classList.remove('hidden');
+                title.innerText = "Langkah 1: Pindai e-KTP";
+                indicator.innerText = "1/3";
+                bar.style.width = "33%";
+                triggerOnboardKtpCamera();
+            } else if (step === 2) {
+                document.getElementById('onboard-step-2').classList.remove('hidden');
+                title.innerText = "Langkah 2: Isi Data Diri & NIK";
+                indicator.innerText = "2/3";
+                bar.style.width = "66%";
+                stopOnboardCamera();
+            } else if (step === 3) {
+                document.getElementById('onboard-step-3').classList.remove('hidden');
+                title.innerText = "Langkah 3: Biometrik Wajah";
+                indicator.innerText = "3/3";
+                bar.style.width = "100%";
+                triggerOnboardFaceCamera();
+            }
+        }
+
+        // ---------- KAMERA (anti blackscreen) ----------
+        function setCamStatus(video, msg, retryFn) {
+            const box = video.parentElement;
+            let el = box.querySelector('.cam-status');
+            if (!msg) { if (el) el.remove(); return; }
+            if (!el) {
+                el = document.createElement('div');
+                el.className = 'cam-status';
+                el.style.cssText = 'position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:16px;text-align:center;color:#e2e8f0;font-size:11px;font-weight:600;line-height:1.4;background:rgba(15,23,42,.92)';
+                box.appendChild(el);
+            }
+            el.innerHTML = '<div>' + msg + '</div>';
+            if (retryFn) {
+                const btn = document.createElement('button');
+                btn.textContent = 'Coba Lagi';
+                btn.style.cssText = 'background:#00D154;color:#fff;font-weight:800;font-size:11px;padding:6px 14px;border-radius:10px;border:0';
+                btn.onclick = retryFn;
+                el.appendChild(btn);
+            }
+        }
+
+        function camErrorMessage(e) {
+            const n = e && e.name;
+            if (n === 'NotAllowedError' || n === 'PermissionDeniedError' || n === 'SecurityError')
+                return 'Izin kamera ditolak. Aktifkan izin Kamera untuk aplikasi ini di Pengaturan HP, lalu tekan Coba Lagi.';
+            if (n === 'NotFoundError' || n === 'DevicesNotFoundError')
+                return 'Kamera tidak ditemukan di perangkat ini.';
+            if (n === 'NotReadableError' || n === 'TrackStartError' || n === 'AbortError')
+                return 'Kamera sedang dipakai aplikasi lain. Tutup aplikasi tersebut lalu tekan Coba Lagi.';
+            return 'Kamera tidak dapat dibuka (' + (n || 'error') + ').';
+        }
+
+        async function openCamera(video, facing, retryFn) {
+            stopOnboardCamera();
+            if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                setCamStatus(video, 'Kamera tidak didukung di sini. Pastikan aplikasi dibuka lewat HTTPS dan WebView mengizinkan kamera.', null);
+                return false;
+            }
+            setCamStatus(video, 'Mengaktifkan kamera...', null);
+            let stream = null;
+            try {
+                stream = await navigator.mediaDevices.getUserMedia({
+                    video: { facingMode: { ideal: facing }, width: { ideal: 1280 }, height: { ideal: 720 } },
+                    audio: false
+                });
+            } catch (e1) {
+                if (e1 && (e1.name === 'NotAllowedError' || e1.name === 'SecurityError' || e1.name === 'PermissionDeniedError')) {
+                    setCamStatus(video, camErrorMessage(e1), retryFn);
+                    return false;
+                }
+                try {
+                    stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+                } catch (e2) {
+                    setCamStatus(video, camErrorMessage(e2), retryFn);
+                    return false;
+                }
+            }
+            onboardCameraStream = stream;
+            video.muted = true;
+            video.setAttribute('playsinline', '');
+            video.setAttribute('webkit-playsinline', '');
+            video.srcObject = stream;
+            video.style.transform = (facing === 'user') ? 'scaleX(-1)' : '';
+            try {
+                await new Promise((resolve, reject) => {
+                    if (video.readyState >= 1) return resolve();
+                    video.onloadedmetadata = () => resolve();
+                    setTimeout(() => reject(new Error('timeout')), 6000);
+                });
+                await video.play();
+            } catch (e3) {
+                console.warn('video.play gagal', e3);
+                if (!video.videoWidth) {
+                    stopOnboardCamera();
+                    setCamStatus(video, 'Gambar kamera tidak muncul. Tekan Coba Lagi.', retryFn);
+                    return false;
+                }
+            }
+            setCamStatus(video, null);
+            return true;
+        }
+
+        async function triggerOnboardKtpCamera() {
+            const video = document.getElementById('onboard-ktp-video');
+            const preview = document.getElementById('onboard-ktp-preview');
+            const overlay = document.getElementById('onboard-ktp-overlay');
+            video.classList.remove('hidden');
+            if (preview) preview.classList.add('hidden');
+            if (overlay) overlay.classList.remove('hidden');
+            const ok = await openCamera(video, 'environment', triggerOnboardKtpCamera);
+            if (!ok) {
+                const el = video.parentElement.querySelector('.cam-status');
+                if (el && !el.querySelector('.alt-hint')) {
+                    const hint = document.createElement('div');
+                    hint.className = 'alt-hint';
+                    hint.style.cssText = 'font-size:10px;color:#94a3b8';
+                    hint.textContent = 'Atau gunakan tombol "Unggah Dari Galeri".';
+                    el.insertBefore(hint, el.children[1] || null);
+                }
+            }
+        }
+
+        async function triggerOnboardFaceCamera() {
+            const video = document.getElementById('onboard-face-video');
+            lastLuminance = 0;
+            const ok = await openCamera(video, 'user', triggerOnboardFaceCamera);
+            if (ok) {
+                startBlinkDetector();
+            } else {
+                simulateFallbackBlinkScan();
+            }
+        }
+
+        function startBlinkDetector() {
+            stopBlinkDetector();
+            const video = document.getElementById('onboard-face-video');
+            const canvas = document.getElementById('face-analysis-canvas');
+            const ctx = canvas.getContext('2d');
+
+            blinkDetectionInterval = setInterval(() => {
+                if (!video.videoWidth || !video.videoHeight || isFaceMatched) return;
+
+                canvas.width = 120;
+                canvas.height = 120;
+                ctx.drawImage(video, 0, 0, 120, 120);
+
+                const frame = ctx.getImageData(30, 30, 60, 60);
+                let totalLuminance = 0;
+                for (let i = 0; i < frame.data.length; i += 4) {
+                    totalLuminance += (frame.data[i] * 0.299 + frame.data[i + 1] * 0.587 + frame.data[i + 2] * 0.114);
+                }
+                const avgLuminance = totalLuminance / (frame.data.length / 4);
+
+                if (lastLuminance > 0 && (lastLuminance - avgLuminance) > 12) {
+                    onBlinkDetected();
+                }
+                lastLuminance = avgLuminance;
+            }, 120);
+
+            // Cadangan: pencahayaan buruk membuat kedipan sulit terbaca -> lanjut otomatis setelah 10 detik
+            blinkFallbackTimer = setTimeout(() => { if (!isFaceMatched) onBlinkDetected(); }, 10000);
+        }
+
+        function stopBlinkDetector() {
+            if (blinkDetectionInterval) {
+                clearInterval(blinkDetectionInterval);
+                blinkDetectionInterval = null;
+            }
+            if (blinkFallbackTimer) {
+                clearTimeout(blinkFallbackTimer);
+                blinkFallbackTimer = null;
+            }
+        }
+
+        function onBlinkDetected() {
+            if (isFaceMatched) return;
+            isFaceMatched = true;
+
+            const oval = document.getElementById('face-liveness-oval');
+            const blinkBadge = document.getElementById('liveness-blink-badge');
+            const syncIndicator = document.getElementById('scan-sync-indicator');
+            const matchStatus = document.getElementById('face-match-status');
+            const matchDetails = document.getElementById('face-match-details');
+
+            oval.classList.remove('border-amber-400');
+            oval.classList.add('border-brand-500');
+
+            blinkBadge.className = "bg-brand-500 text-white font-extrabold text-[9px] px-2.5 py-0.5 rounded-full backdrop-blur flex items-center gap-1";
+            blinkBadge.innerHTML = `<i class="fa-solid fa-circle-check"></i> Kedipan Terdeteksi!`;
+
+            syncIndicator.classList.remove('hidden');
+
+            setTimeout(() => {
+                syncIndicator.classList.add('hidden');
+                matchStatus.classList.remove('hidden');
+                
+                const currentNik = document.getElementById('ob-input-nik')?.value || userData.nik;
+                matchDetails.innerHTML = `Data Wajah Terkonfirmasi Sinkron dengan NIK: <strong class="font-mono text-slate-900">${currentNik}</strong>`;
+                showPropAlert('Kedipan Terdeteksi! Biometrik Berhasil Disinkronkan dengan KTP');
+            }, 1200);
+        }
+
+        function simulateFallbackBlinkScan() {
+            if (blinkFallbackTimer) clearTimeout(blinkFallbackTimer);
+            blinkFallbackTimer = setTimeout(() => { if (!isFaceMatched) onBlinkDetected(); }, 3000);
+        }
+
+        function stopOnboardCamera() {
+            stopBlinkDetector();
+            if (onboardCameraStream) {
+                onboardCameraStream.getTracks().forEach(track => track.stop());
+                onboardCameraStream = null;
+            }
+        }
+
+        function completeOnboardingAndEnterLobby() {
+            stopOnboardCamera();
+            
+            const inputNik = document.getElementById('ob-input-nik').value;
+            const inputNama = document.getElementById('ob-input-nama').value;
+            if (inputNik) userData.nik = inputNik;
+            if (inputNama) userData.nama = inputNama;
+
+            document.getElementById('profile-user-name').innerText = userData.nama;
+            document.getElementById('profile-nik-display').innerText = `NIK: ${userData.nik}`;
+
+            document.getElementById('login-flow').classList.add('hidden');
+            document.getElementById('main-header').classList.remove('hidden');
+            document.getElementById('onboarding-flow').classList.add('hidden');
+            document.getElementById('main-lobby').classList.remove('hidden');
+            document.getElementById('bottom-nav').classList.remove('hidden');
+
+            switchTab('home');
+            showPropAlert('Verifikasi Berhasil! Selamat Datang di FlexiDana');
+        }
+
+        function logoutAccount() {
+            isFaceMatched = false;
+            document.getElementById('face-match-status')?.classList.add('hidden');
+            document.getElementById('face-liveness-oval')?.classList.remove('border-brand-500');
+            document.getElementById('face-liveness-oval')?.classList.add('border-amber-400');
+            
+            showPropAlert('Anda Telah Log Out');
+            showLoginFlow();
+        }
+
+        function switchTab(tab) {
+            document.getElementById('page-home').classList.add('hidden');
+            document.getElementById('page-kyc').classList.add('hidden');
+            document.getElementById('page-profile').classList.add('hidden');
+
+            document.getElementById('nav-home').className = "flex flex-col items-center text-slate-400 hover:text-slate-600 space-y-1 transition";
+            document.getElementById('nav-kyc').className = "flex flex-col items-center text-slate-400 hover:text-slate-600 space-y-1 transition";
+            document.getElementById('nav-profile').className = "flex flex-col items-center text-slate-400 hover:text-slate-600 space-y-1 transition";
+
+            if (tab === 'home') {
+                document.getElementById('page-home').classList.remove('hidden');
+                document.getElementById('nav-home').className = "flex flex-col items-center text-brand-500 space-y-1 transition";
+            } else if (tab === 'kyc') {
+                document.getElementById('page-kyc').classList.remove('hidden');
+                document.getElementById('nav-kyc').className = "flex flex-col items-center text-brand-500 space-y-1 transition";
+            } else if (tab === 'profile') {
+                document.getElementById('page-profile').classList.remove('hidden');
+                document.getElementById('nav-profile').className = "flex flex-col items-center text-brand-500 space-y-1 transition";
+            }
+        }
+
+        // ====================== DATA & HELPER ======================
+        const rp = n => 'Rp ' + Number(n).toLocaleString('id-ID');
+        const todayStr = () => new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+
+        const BANKS = [
+            { id: 'bca', name: 'BCA' }, { id: 'mandiri', name: 'Mandiri' },
+            { id: 'bni', name: 'BNI' }, { id: 'bri', name: 'BRI' },
+            { id: 'cimb', name: 'CIMB Niaga' }, { id: 'permata', name: 'Permata' }
+        ];
+        const EWALLETS = [
+            { id: 'gopay', name: 'GoPay' }, { id: 'dana', name: 'DANA' },
+            { id: 'ovo', name: 'OVO' }, { id: 'shopeepay', name: 'ShopeePay' },
+            { id: 'linkaja', name: 'LinkAja' }
+        ];
+        // Prefix VA fiktif (properti film) - tidak terhubung ke bank mana pun
+        const VA_BANKS = [
+            { id: 'bca', name: 'BCA', prefix: '9901' }, { id: 'mandiri', name: 'Mandiri', prefix: '9902' },
+            { id: 'bni', name: 'BNI', prefix: '9903' }, { id: 'bri', name: 'BRI', prefix: '9904' },
+            { id: 'permata', name: 'Permata', prefix: '9905' }
+        ];
+        const FEE = { bank: 2500, ewallet: 1000 };
+
+        let txHistory = [
+            { title: 'Cicilan Gadget Pro', date: '10 Okt 2026', amount: -1150000 }
+        ];
+        let pendingVA = null;
+        let vaTimer = null;
+        let cashoutType = 'bank';
+        let cashoutProvider = 'bca';
+
+        function addHistory(title, amount) {
+            txHistory.unshift({ title, date: todayStr(), amount });
+        }
+
+        // ====================== SALIN KE CLIPBOARD ======================
+        async function copyText(text, label) {
+            let ok = false;
+            try {
+                if (navigator.clipboard && window.isSecureContext) {
+                    await navigator.clipboard.writeText(text);
+                    ok = true;
+                }
+            } catch (e) { ok = false; }
+            if (!ok) {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                ta.setAttribute('readonly', '');
+                ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+                document.body.appendChild(ta);
+                ta.focus(); ta.select(); ta.setSelectionRange(0, text.length);
+                try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+                ta.remove();
+            }
+            showPropAlert(ok ? `${label} disalin` : 'Gagal menyalin, salin manual');
+        }
+
+        // ====================== NOTIFIKASI HP ======================
+        const NOTIF_ICON = 'icon-192.png';
+        let swReg = null;
+
+        async function initServiceWorker() {
+            if (!('serviceWorker' in navigator) || !/^https?:$/.test(location.protocol)) return;
+            try {
+                swReg = await navigator.serviceWorker.register('sw.js');
+                navigator.serviceWorker.addEventListener('message', e => {
+                    if (e.data && e.data.type === 'open-pay') {
+                        if (!document.getElementById('main-lobby').classList.contains('hidden')) openModal('bayar');
+                    }
+                });
+            } catch (e) { console.warn('SW gagal didaftarkan', e); }
+        }
+
+        function notifSupported() { return 'Notification' in window; }
+
+        function updateNotifStatus() {
+            const el = document.getElementById('notif-status-label');
+            if (!el) return;
+            if (!notifSupported()) el.innerText = 'Tidak didukung';
+            else if (Notification.permission === 'granted') el.innerText = 'Aktif';
+            else if (Notification.permission === 'denied') el.innerText = 'Diblokir';
+            else el.innerText = 'Belum aktif';
+        }
+
+        async function enableDeviceNotifications() {
+            if (!notifSupported()) { showPropAlert('Browser tidak mendukung notifikasi'); return false; }
+            let p = Notification.permission;
+            if (p === 'default') p = await Notification.requestPermission();
+            updateNotifStatus();
+            if (p === 'granted') {
+                sendDeviceNotification('Notifikasi FlexiDana Aktif', 'Pengingat tagihan dan status transaksi akan muncul di HP Anda.', { tag: 'welcome' });
+                return true;
+            }
+            showPropAlert('Izin notifikasi belum diberikan');
+            return false;
+        }
+
+        async function sendDeviceNotification(title, body, opts = {}) {
+            showInAppBanner(title, body, !!opts.pay);
+            if (!notifSupported() || Notification.permission !== 'granted') return;
+            const options = {
+                body, icon: NOTIF_ICON, badge: NOTIF_ICON,
+                tag: opts.tag || 'flexidana', renotify: true,
+                vibrate: [200, 100, 200], data: { pay: !!opts.pay }
+            };
+            if (opts.pay) options.actions = [{ action: 'pay', title: 'Bayar Sekarang' }];
+            try {
+                const reg = swReg || (('serviceWorker' in navigator) ? await navigator.serviceWorker.getRegistration() : null);
+                if (reg && reg.showNotification) await reg.showNotification(title, options);
+                else new Notification(title, options);
+            } catch (e) { console.warn('Notifikasi gagal', e); }
+        }
+
+        let bannerTimer = null;
+        function showInAppBanner(title, body, pay) {
+            const notif = document.getElementById('system-notification');
+            document.getElementById('notif-title').innerText = title;
+            document.getElementById('notif-body').innerText = body;
+            document.getElementById('notif-pay-btn').classList.toggle('hidden', !pay);
+            notif.classList.remove('hidden');
+            clearTimeout(bannerTimer);
+            bannerTimer = setTimeout(hidePushNotif, 7000);
+        }
+
+        async function triggerNotification(title, body) {
+            if (notifSupported() && Notification.permission === 'default') await enableDeviceNotifications();
+            sendDeviceNotification(title, body, { pay: currentBill > 0, tag: 'bill-reminder' });
+        }
+
+
+        // ====================== JATUH TEMPO & PENGINGAT ======================
+        const REMINDER_OPTS = [
+            { id: 'due', label: 'Tepat saat jatuh tempo', ms: 0 },
+            { id: '1h', label: '1 jam sebelumnya', ms: 3600e3 },
+            { id: '1d', label: '1 hari sebelumnya', ms: 86400e3 },
+            { id: '3d', label: '3 hari sebelumnya', ms: 3 * 86400e3 }
+        ];
+        let dueAt = (() => { const d = new Date(); d.setHours(23, 59, 0, 0); return d; })();
+        let reminderSel = ['due', '1h'];
+        let reminders = [];
+        let dueTimer = null;
+
+        function loadDue() {
+            try {
+                const raw = localStorage.getItem('fd_due');
+                if (!raw) return;
+                const o = JSON.parse(raw);
+                if (o.at) dueAt = new Date(o.at);
+                if (Array.isArray(o.rem)) reminderSel = o.rem;
+            } catch (e) {}
+        }
+        function persistDue() {
+            try { localStorage.setItem('fd_due', JSON.stringify({ at: dueAt.getTime(), rem: reminderSel })); } catch (e) {}
+        }
+
+        function fmtDue(d) {
+            return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }) + ', ' +
+                   d.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', hour12: false }).replace('.', ':') + ' WIB';
+        }
+        const pad2 = n => String(n).padStart(2, '0');
+        const toDateInput = d => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+        const toTimeInput = d => `${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+
+        function refreshDueUI() {
+            const l = document.getElementById('due-label'); if (l) l.innerText = fmtDue(dueAt);
+            const b = document.getElementById('banner-due'); if (b) b.innerText = fmtDue(dueAt);
+            const t = document.getElementById('banner-title');
+            if (t) t.innerText = Date.now() > dueAt.getTime() ? 'Tagihan Melewati Jatuh Tempo' : 'Tagihan Segera Jatuh Tempo';
+        }
+
+        function buildReminders() {
+            const now = Date.now();
+            reminders = [];
+            REMINDER_OPTS.filter(o => reminderSel.includes(o.id)).forEach(o => {
+                const at = dueAt.getTime() - o.ms;
+                reminders.push({
+                    at, fired: at <= now - 60000, // yang sudah lewat > 1 menit tidak dibunyikan ulang
+                    title: o.ms === 0 ? 'Tagihan Jatuh Tempo Sekarang' : 'Pengingat Tagihan',
+                    body: o.ms === 0
+                        ? `Cicilan Gadget Pro ${rp(currentBill)} jatuh tempo sekarang (${fmtDue(dueAt)}). Segera bayar untuk menghindari denda harian.`
+                        : `Tagihan ${rp(currentBill)} jatuh tempo ${o.label.replace('sebelumnya', '')}lagi, pada ${fmtDue(dueAt)}.`
+                });
+            });
+        }
+
+        function checkReminders() {
+            const now = Date.now();
+            reminders.forEach(r => {
+                if (!r.fired && now >= r.at) {
+                    r.fired = true;
+                    if (currentBill <= 0) return;
+                    const lobbyOn = !document.getElementById('main-lobby').classList.contains('hidden');
+                    if (now >= dueAt.getTime() && lobbyOn) document.getElementById('warning-banner').classList.remove('hidden');
+                    sendDeviceNotification(r.title, r.body, { pay: true, tag: 'due-' + r.at });
+                }
+            });
+        }
+
+        function scheduleDue() {
+            clearInterval(dueTimer);
+            buildReminders();
+            refreshDueUI();
+            persistDue();
+            dueTimer = setInterval(checkReminders, 10000);
+            checkReminders();
+        }
+
+        function renderDueForm() {
+            setModal(`
+                <div class="space-y-4">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl mx-auto flex items-center justify-center text-xl"><i class="fa-regular fa-calendar-check"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base mt-2">Atur Jatuh Tempo</h3>
+                        <p class="text-[10px] text-slate-400">Cicilan Gadget Pro • ${rp(currentBill)}</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="text-[11px] font-bold text-slate-600 block mb-1">Tanggal</label>
+                            <input type="date" id="due-date" value="${toDateInput(dueAt)}" class="w-full bg-slate-50 border border-slate-200 rounded-2xl p-2.5 text-xs font-bold text-slate-900 focus:outline-none focus:border-brand-500">
+                        </div>
+                        <div>
+                            <label class="text-[11px] font-bold text-slate-600 block mb-1">Jam</label>
+                            <input type="time" id="due-time" value="${toTimeInput(dueAt)}" class="w-full bg-slate-50 border border-slate-200 rounded-2xl p-2.5 text-xs font-bold text-slate-900 focus:outline-none focus:border-brand-500">
+                        </div>
+                    </div>
+                    <button onclick="setDueInMinutes(1)" class="w-full text-[10px] font-bold bg-slate-100 rounded-lg py-1.5"><i class="fa-solid fa-stopwatch"></i> Set 1 menit dari sekarang (uji notifikasi)</button>
+                    <div>
+                        <label class="text-[11px] font-bold text-slate-600 block mb-1.5">Kirim notifikasi</label>
+                        <div class="space-y-1.5">
+                            ${REMINDER_OPTS.map(o => `
+                                <label class="flex items-center gap-2 bg-slate-50 border border-slate-100 rounded-xl px-3 py-2 text-[11px] font-semibold text-slate-700">
+                                    <input type="checkbox" class="due-rem" value="${o.id}" ${reminderSel.includes(o.id) ? 'checked' : ''}> ${o.label}
+                                </label>`).join('')}
+                        </div>
+                    </div>
+                    <div class="flex space-x-2">
+                        <button onclick="closeModal('action-modal')" class="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-2xl text-xs">Batal</button>
+                        <button onclick="saveDue()" class="flex-[1.4] bg-brand-500 text-white font-bold py-3 rounded-2xl text-xs shadow-lg shadow-brand-500/30">Simpan</button>
+                    </div>
+                </div>`);
+        }
+
+        function setDueInMinutes(m) {
+            const d = new Date(Date.now() + m * 60000);
+            document.getElementById('due-date').value = toDateInput(d);
+            document.getElementById('due-time').value = toTimeInput(d);
+            document.querySelectorAll('.due-rem').forEach(c => c.checked = c.value === 'due');
+        }
+
+        async function saveDue() {
+            const ds = document.getElementById('due-date').value;
+            const ts = document.getElementById('due-time').value;
+            if (!ds || !ts) { showPropAlert('Isi tanggal dan jam'); return; }
+            const d = new Date(`${ds}T${ts}:00`);
+            if (isNaN(d.getTime())) { showPropAlert('Tanggal tidak valid'); return; }
+            dueAt = d;
+            reminderSel = [...document.querySelectorAll('.due-rem:checked')].map(c => c.value);
+            if (notifSupported() && Notification.permission === 'default') await enableDeviceNotifications();
+            scheduleDue();
+            closeModal('action-modal');
+            showPropAlert('Jatuh tempo: ' + fmtDue(dueAt));
+        }
+
+        // ====================== MODAL ======================
+        function openModal(type) {
+            const modal = document.getElementById('action-modal');
+            modal.classList.remove('hidden');
+            clearInterval(vaTimer);
+            if (type === 'bayar') renderPayForm();
+            else if (type === 'tarik') renderCashoutForm();
+            else if (type === 'simulasi') renderSimulasi();
+            else if (type === 'riwayat') renderRiwayat();
+            else if (type === 'jatuhtempo') renderDueForm();
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.add('hidden');
+            clearInterval(vaTimer);
+        }
+
+        const setModal = html => { document.getElementById('modal-content').innerHTML = html; };
+
+        // ---------- PEMBAYARAN: form ----------
+        let payBank = 'bca';
+        function renderPayForm() {
+            if (pendingVA) { renderVA(); return; }
+            if (currentBill <= 0) {
+                setModal(`
+                    <div class="text-center space-y-4">
+                        <div class="w-12 h-12 bg-emerald-100 text-brand-600 rounded-2xl mx-auto flex items-center justify-center text-xl"><i class="fa-solid fa-circle-check"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base">Tidak Ada Tagihan</h3>
+                        <p class="text-xs text-slate-500">Semua tagihan Anda sudah lunas.</p>
+                        <button onclick="closeModal('action-modal')" class="w-full bg-slate-800 text-white font-bold py-3 rounded-2xl text-xs">Tutup</button>
+                    </div>`);
+                return;
+            }
+            setModal(`
+                <div class="space-y-4">
+                    <div class="text-center space-y-2">
+                        <div class="w-12 h-12 bg-emerald-100 text-brand-600 rounded-2xl mx-auto flex items-center justify-center text-xl"><i class="fa-solid fa-wallet"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base">Pembayaran Tagihan</h3>
+                    </div>
+                    <div class="bg-slate-50 p-3 rounded-2xl border border-slate-100">
+                        <span class="text-[10px] text-slate-400 block font-bold">Total Tagihan Berjalan</span>
+                        <span class="text-lg font-black text-slate-900">${rp(currentBill)}</span>
+                    </div>
+                    <div>
+                        <label class="text-[11px] font-bold text-slate-600 block mb-1">Nominal yang dibayar</label>
+                        <input type="number" inputmode="numeric" id="pay-input" value="${currentBill}" min="10000" max="${currentBill}" class="w-full bg-slate-50 border border-slate-200 rounded-2xl p-3 text-center text-slate-900 font-extrabold text-base focus:outline-none focus:border-brand-500">
+                        <div class="flex gap-2 mt-2">
+                            <button onclick="document.getElementById('pay-input').value=${currentBill}" class="flex-1 text-[10px] font-bold bg-slate-100 rounded-lg py-1.5">Lunas</button>
+                            <button onclick="document.getElementById('pay-input').value=${Math.max(10000, Math.round(currentBill / 2))}" class="flex-1 text-[10px] font-bold bg-slate-100 rounded-lg py-1.5">50%</button>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-[11px] font-bold text-slate-600 block mb-1">Bayar lewat Virtual Account</label>
+                        <div class="grid grid-cols-3 gap-2" id="va-bank-grid">
+                            ${VA_BANKS.map(b => `<button data-id="${b.id}" onclick="selectVaBank('${b.id}')" class="va-bank-btn border rounded-xl py-2 text-[11px] font-bold transition ${b.id === payBank ? 'border-brand-500 bg-brand-50 text-brand-700' : 'border-slate-200 text-slate-600'}">${b.name}</button>`).join('')}
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 pt-1">
+                        <button onclick="closeModal('action-modal')" class="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-2xl text-xs">Batal</button>
+                        <button onclick="createVA()" class="flex-1 bg-brand-500 text-white font-bold py-3 rounded-2xl text-xs shadow-lg shadow-brand-500/30">Buat Kode VA</button>
+                    </div>
+                </div>`);
+        }
+
+        function selectVaBank(id) {
+            payBank = id;
+            document.querySelectorAll('.va-bank-btn').forEach(b => {
+                const on = b.dataset.id === id;
+                b.className = 'va-bank-btn border rounded-xl py-2 text-[11px] font-bold transition ' + (on ? 'border-brand-500 bg-brand-50 text-brand-700' : 'border-slate-200 text-slate-600');
+            });
+        }
+
+        function createVA() {
+            const amt = parseInt(document.getElementById('pay-input').value) || 0;
+            if (amt < 10000) { showPropAlert('Minimal pembayaran Rp 10.000'); return; }
+            if (amt > currentBill) { showPropAlert('Nominal melebihi total tagihan'); return; }
+            const bank = VA_BANKS.find(b => b.id === payBank);
+            let tail = '';
+            for (let i = 0; i < 10; i++) tail += Math.floor(Math.random() * 10);
+            pendingVA = {
+                bank, amount: amt,
+                number: bank.prefix + '88' + tail,
+                expiresAt: Date.now() + 24 * 3600 * 1000
+            };
+            addHistory('Menunggu pembayaran VA ' + bank.name, 0);
+            txHistory[0].pending = true;
+            renderVA();
+            sendDeviceNotification('Kode VA ' + bank.name + ' Dibuat', `Bayar ${rp(amt)} ke VA ${pendingVA.number} sebelum 24 jam.`, { tag: 'va-created' });
+        }
+
+        function groupVA(n) { return n.replace(/(\d{4})(?=\d)/g, '$1 '); }
+
+        // ---------- PEMBAYARAN: tampilan kode VA ----------
+        function renderVA() {
+            const v = pendingVA;
+            setModal(`
+                <div class="space-y-3.5">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-2xl mx-auto flex items-center justify-center text-xl"><i class="fa-solid fa-receipt"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base mt-2">Selesaikan Pembayaran</h3>
+                        <p class="text-[11px] text-slate-500">Batas waktu: <span id="va-countdown" class="font-extrabold text-red-600">--:--:--</span></p>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-100 rounded-2xl p-3">
+                        <span class="text-[10px] text-slate-400 font-bold block">Nominal Pembayaran</span>
+                        <div class="flex items-center justify-between gap-2">
+                            <span class="text-xl font-black text-slate-900">${rp(v.amount)}</span>
+                            <button onclick="copyText('${v.amount}', 'Nominal')" class="text-[10px] font-bold bg-white border border-slate-200 rounded-lg px-2.5 py-1.5"><i class="fa-regular fa-copy"></i> Salin</button>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-100 rounded-2xl p-3">
+                        <span class="text-[10px] text-slate-400 font-bold block">Virtual Account ${v.bank.name}</span>
+                        <div class="flex items-center justify-between gap-2">
+                            <span class="text-base font-black text-slate-900 tracking-wider font-mono break-all">${groupVA(v.number)}</span>
+                            <button onclick="copyText('${v.number}', 'Kode VA')" class="text-[10px] font-bold bg-brand-500 text-white rounded-lg px-2.5 py-1.5 shrink-0"><i class="fa-regular fa-copy"></i> Salin</button>
+                        </div>
+                        <span class="text-[10px] text-slate-400">a.n. PT FlexiDana Indonesia</span>
+                    </div>
+
+                    <details class="bg-white border border-slate-100 rounded-2xl p-3 text-[11px] text-slate-600">
+                        <summary class="font-bold text-slate-800 cursor-pointer">Cara bayar lewat mobile banking</summary>
+                        <ol class="list-decimal pl-4 mt-2 space-y-1 leading-snug">
+                            <li>Salin kode VA di atas.</li>
+                            <li>Buka aplikasi mobile banking ${v.bank.name}, pilih <b>Transfer</b> lalu <b>Virtual Account</b>.</li>
+                            <li>Tempel kode VA, pastikan nominal ${rp(v.amount)}.</li>
+                            <li>Konfirmasi dan masukkan PIN.</li>
+                        </ol>
+                    </details>
+
+                    <div class="flex space-x-2">
+                        <button onclick="cancelVA()" class="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-2xl text-[11px]">Ganti Metode</button>
+                        <button onclick="confirmVAPaid()" class="flex-[1.4] bg-brand-500 text-white font-bold py-3 rounded-2xl text-[11px] shadow-lg shadow-brand-500/30">Saya Sudah Bayar</button>
+                    </div>
+                    <p class="text-[9px] text-center text-slate-400">Properti film: kode VA fiktif, tidak terhubung ke bank mana pun.</p>
+                </div>`);
+            const tick = () => {
+                const el = document.getElementById('va-countdown');
+                if (!el) { clearInterval(vaTimer); return; }
+                const s = Math.max(0, Math.floor((pendingVA.expiresAt - Date.now()) / 1000));
+                const p = n => String(n).padStart(2, '0');
+                el.innerText = `${p(Math.floor(s / 3600))}:${p(Math.floor(s % 3600 / 60))}:${p(s % 60)}`;
+            };
+            tick();
+            vaTimer = setInterval(tick, 1000);
+        }
+
+        function cancelVA() {
+            txHistory = txHistory.filter(t => !t.pending);
+            pendingVA = null;
+            renderPayForm();
+        }
+
+        function confirmVAPaid() {
+            const v = pendingVA;
+            if (!v) return;
+            txHistory = txHistory.filter(t => !t.pending);
+            currentBill = Math.max(0, currentBill - v.amount);
+            currentLimit += v.amount;
+            addHistory('Pembayaran VA ' + v.bank.name, -v.amount);
+            pendingVA = null;
+            updateDisplays();
+            if (currentBill === 0) document.getElementById('warning-banner').classList.add('hidden');
+            closeModal('action-modal');
+            sendDeviceNotification('Pembayaran Diterima', `Pembayaran ${rp(v.amount)} via VA ${v.bank.name} berhasil. Sisa tagihan ${rp(currentBill)}.`, { tag: 'pay-ok' });
+        }
+
+        // ---------- PENCAIRAN DANA ----------
+        function renderCashoutForm() {
+            cashoutType = 'bank'; cashoutProvider = 'bca';
+            setModal(`
+                <div class="space-y-3.5">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl mx-auto flex items-center justify-center text-xl"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base mt-2">Pencairan Limit Kredit</h3>
+                        <p class="text-[10px] text-slate-400">Sisa limit: ${rp(currentLimit)}</p>
+                    </div>
+                    <div>
+                        <label class="text-[11px] font-bold text-slate-600 block mb-1">Nominal Pencairan</label>
+                        <input type="number" inputmode="numeric" id="cashout-input" value="1000000" oninput="updateCashoutSummary()" class="w-full bg-slate-50 border border-slate-200 rounded-2xl p-3 text-slate-900 font-bold text-sm focus:outline-none focus:border-brand-500">
+                        <div class="flex gap-1.5 mt-2">
+                            ${[500000, 1000000, 5000000, 10000000].map(n => `<button onclick="document.getElementById('cashout-input').value=${n};updateCashoutSummary()" class="flex-1 text-[10px] font-bold bg-slate-100 rounded-lg py-1.5">${n >= 1000000 ? (n / 1000000) + ' jt' : (n / 1000) + ' rb'}</button>`).join('')}
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="text-[11px] font-bold text-slate-600 block mb-1">Pilih Tujuan Pencairan</label>
+                        <div class="grid grid-cols-2 gap-2 mb-2">
+                            <button id="ctype-bank" onclick="setCashoutType('bank')" class="border rounded-xl py-2 text-[11px] font-bold"><i class="fa-solid fa-building-columns"></i> Rekening Bank</button>
+                            <button id="ctype-ewallet" onclick="setCashoutType('ewallet')" class="border rounded-xl py-2 text-[11px] font-bold"><i class="fa-solid fa-wallet"></i> E-Wallet</button>
+                        </div>
+                        <div id="provider-grid" class="grid grid-cols-3 gap-2"></div>
+                    </div>
+
+                    <div>
+                        <label id="dest-label" class="text-[11px] font-bold text-slate-600 block mb-1">Nomor Rekening</label>
+                        <input type="tel" inputmode="numeric" id="cashout-dest" placeholder="Contoh: 1234567890" class="w-full bg-slate-50 border border-slate-200 rounded-2xl p-3 text-slate-900 font-bold text-sm focus:outline-none focus:border-brand-500">
+                        <p class="text-[10px] text-slate-400 mt-1">Atas nama: <b class="text-slate-600">${userData.nama.toUpperCase()}</b></p>
+                    </div>
+
+                    <div id="cashout-summary" class="bg-slate-50 rounded-2xl p-3 border border-slate-100 text-[11px] space-y-1"></div>
+
+                    <div class="flex space-x-2">
+                        <button onclick="closeModal('action-modal')" class="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-2xl text-xs">Batal</button>
+                        <button onclick="executeCashout()" class="flex-[1.4] bg-blue-600 text-white font-bold py-3 rounded-2xl text-xs">Cairkan Instan</button>
+                    </div>
+                </div>`);
+            setCashoutType('bank');
+        }
+
+        function setCashoutType(t) {
+            cashoutType = t;
+            const list = t === 'bank' ? BANKS : EWALLETS;
+            cashoutProvider = list[0].id;
+            const on = 'border-brand-500 bg-brand-50 text-brand-700', off = 'border-slate-200 text-slate-600';
+            document.getElementById('ctype-bank').className = 'border rounded-xl py-2 text-[11px] font-bold ' + (t === 'bank' ? on : off);
+            document.getElementById('ctype-ewallet').className = 'border rounded-xl py-2 text-[11px] font-bold ' + (t === 'ewallet' ? on : off);
+            document.getElementById('dest-label').innerText = t === 'bank' ? 'Nomor Rekening' : 'Nomor HP Terdaftar';
+            document.getElementById('cashout-dest').placeholder = t === 'bank' ? 'Contoh: 1234567890' : 'Contoh: 081234567890';
+            document.getElementById('provider-grid').innerHTML = list.map(p =>
+                `<button data-id="${p.id}" onclick="selectProvider('${p.id}')" class="prov-btn border rounded-xl py-2 text-[11px] font-bold transition">${p.name}</button>`).join('');
+            selectProvider(cashoutProvider);
+        }
+
+        function selectProvider(id) {
+            cashoutProvider = id;
+            document.querySelectorAll('.prov-btn').forEach(b => {
+                const sel = b.dataset.id === id;
+                b.className = 'prov-btn border rounded-xl py-2 text-[11px] font-bold transition ' + (sel ? 'border-brand-500 bg-brand-50 text-brand-700' : 'border-slate-200 text-slate-600');
+            });
+            updateCashoutSummary();
+        }
+
+        function providerName() {
+            return [...BANKS, ...EWALLETS].find(p => p.id === cashoutProvider).name;
+        }
+
+        function updateCashoutSummary() {
+            const el = document.getElementById('cashout-summary');
+            if (!el) return;
+            const amt = parseInt(document.getElementById('cashout-input').value) || 0;
+            const fee = FEE[cashoutType];
+            el.innerHTML = `
+                <div class="flex justify-between"><span class="text-slate-500">Tujuan</span><b class="text-slate-800">${providerName()}</b></div>
+                <div class="flex justify-between"><span class="text-slate-500">Biaya admin</span><b class="text-slate-800">${rp(fee)}</b></div>
+                <div class="flex justify-between border-t border-slate-200 pt-1"><span class="text-slate-500">Dana diterima</span><b class="text-brand-700">${rp(Math.max(0, amt - fee))}</b></div>`;
+        }
+
+        function maskDest(s) {
+            return s.length <= 6 ? s : s.slice(0, 3) + '*'.repeat(s.length - 6) + s.slice(-3);
+        }
+
+        function executeCashout() {
+            const amt = parseInt(document.getElementById('cashout-input').value) || 0;
+            const dest = (document.getElementById('cashout-dest').value || '').replace(/\D/g, '');
+            const fee = FEE[cashoutType];
+            if (amt < 50000) { showPropAlert('Minimal pencairan Rp 50.000'); return; }
+            if (amt > currentLimit) { showPropAlert('Nominal melebihi sisa limit tersedia!'); return; }
+            if (cashoutType === 'bank' && (dest.length < 8 || dest.length > 16)) { showPropAlert('Nomor rekening tidak valid'); return; }
+            if (cashoutType === 'ewallet' && !/^(0|62)?8\d{8,11}$/.test(dest)) { showPropAlert('Nomor HP e-wallet tidak valid'); return; }
+
+            const name = providerName();
+            setModal(`
+                <div class="text-center py-8 space-y-3">
+                    <i class="fa-solid fa-spinner fa-spin text-3xl text-blue-600"></i>
+                    <p class="text-xs font-bold text-slate-700">Memproses pencairan ke ${name}...</p>
+                </div>`);
+
+            setTimeout(() => {
+                currentLimit -= amt;
+                currentBill += amt;
+                addHistory('Pencairan ke ' + name, amt - fee);
+                updateDisplays();
+                const ref = 'FD' + Date.now().toString().slice(-9);
+                setModal(`
+                    <div class="space-y-3.5 text-center">
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-600 rounded-full mx-auto flex items-center justify-center text-2xl"><i class="fa-solid fa-check"></i></div>
+                        <h3 class="font-bold text-slate-900 text-base">Pencairan Berhasil</h3>
+                        <div class="bg-slate-50 rounded-2xl p-3 border border-slate-100 text-[11px] text-left space-y-1.5">
+                            <div class="flex justify-between"><span class="text-slate-500">Tujuan</span><b>${name} ${maskDest(dest)}</b></div>
+                            <div class="flex justify-between"><span class="text-slate-500">Nominal</span><b>${rp(amt)}</b></div>
+                            <div class="flex justify-between"><span class="text-slate-500">Biaya admin</span><b>${rp(fee)}</b></div>
+                            <div class="flex justify-between border-t border-slate-200 pt-1.5"><span class="text-slate-500">Dana diterima</span><b class="text-brand-700">${rp(amt - fee)}</b></div>
+                            <div class="flex justify-between"><span class="text-slate-500">No. Referensi</span><b class="font-mono">${ref}</b></div>
+                        </div>
+                        <button onclick="closeModal('action-modal')" class="w-full bg-slate-800 text-white font-bold py-3 rounded-2xl text-xs">Selesai</button>
+                    </div>`);
+                sendDeviceNotification('Pencairan Dana Berhasil', `${rp(amt - fee)} telah dikirim ke ${name} ${maskDest(dest)}.`, { tag: 'cashout-ok' });
+            }, 1600);
+        }
+
+        // ---------- SIMULASI & RIWAYAT ----------
+        function renderSimulasi() {
+            setModal(`
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-2">
+                        <h3 class="font-bold text-slate-900 text-sm">Kalkulator Cicilan</h3>
+                        <button onclick="closeModal('action-modal')" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="text-[10px] text-slate-500 font-bold block mb-1">Jumlah Pinjaman</label>
+                            <input type="number" id="sim-amt" value="5000000" oninput="calcSim()" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-800 font-bold">
+                        </div>
+                        <div>
+                            <label class="text-[10px] text-slate-500 font-bold block mb-1">Tenor Cicilan</label>
+                            <select id="sim-tenor" onchange="calcSim()" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-2.5 text-xs text-slate-800 font-bold">
+                                <option value="3">3 Bulan (Bunga 0,03%/hari)</option>
+                                <option value="6">6 Bulan (Bunga 0,03%/hari)</option>
+                                <option value="12">12 Bulan (Bunga 0,03%/hari)</option>
+                            </select>
+                        </div>
+                        <div id="sim-result" class="bg-slate-50 rounded-2xl p-3 border border-slate-100 text-[11px] space-y-1"></div>
+                    </div>
+                    <button onclick="closeModal('action-modal')" class="w-full bg-brand-500 text-white font-bold py-2.5 rounded-xl text-xs">Tutup</button>
+                </div>`);
+            calcSim();
+        }
+
+        function calcSim() {
+            const amt = parseInt(document.getElementById('sim-amt').value) || 0;
+            const m = parseInt(document.getElementById('sim-tenor').value);
+            const interest = amt * 0.0003 * 30 * m;
+            const total = amt + interest;
+            document.getElementById('sim-result').innerHTML = `
+                <div class="flex justify-between"><span class="text-slate-500">Total bunga</span><b>${rp(Math.round(interest))}</b></div>
+                <div class="flex justify-between"><span class="text-slate-500">Total bayar</span><b>${rp(Math.round(total))}</b></div>
+                <div class="flex justify-between border-t border-slate-200 pt-1"><span class="text-slate-500">Cicilan / bulan</span><b class="text-brand-700">${rp(Math.round(total / m))}</b></div>`;
+        }
+
+        function renderRiwayat() {
+            const rows = txHistory.map(t => `
+                <div class="p-2.5 bg-slate-50 rounded-xl flex justify-between text-xs gap-2">
+                    <div><span class="font-bold block text-slate-800">${t.title}</span><span class="text-[9px] text-slate-400">${t.date}${t.pending ? ' • Menunggu' : ''}</span></div>
+                    <span class="font-bold ${t.pending ? 'text-amber-600' : (t.amount < 0 ? 'text-slate-900' : 'text-brand-700')}">${t.pending ? '-' : (t.amount < 0 ? '-' : '+') + rp(Math.abs(t.amount))}</span>
+                </div>`).join('');
+            setModal(`
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-2">
+                        <h3 class="font-bold text-slate-900 text-sm">Riwayat Transaksi</h3>
+                        <button onclick="closeModal('action-modal')" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="space-y-2 max-h-72 overflow-y-auto">${rows}</div>
+                    <button onclick="closeModal('action-modal')" class="w-full bg-slate-800 text-white font-bold py-2 rounded-xl text-xs">Tutup</button>
+                </div>`);
+        }
+
+        function updateDisplays() {
+            document.getElementById('display-limit').innerText = rp(currentLimit);
+            document.getElementById('bill-amount-display').innerText = rp(currentBill);
+            document.querySelectorAll('#warning-banner span.font-bold').forEach(e => e.innerText = rp(currentBill));
+        }
+
+        function handleMainCTA() {
+            openModal('tarik');
+        }
+
+        function handleKtpFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                stopOnboardCamera();
+                
+                const video = document.getElementById('onboard-ktp-video');
+                const previewImg = document.getElementById('onboard-ktp-preview');
+                const overlay = document.getElementById('onboard-ktp-overlay');
+                
+                if (video) video.classList.add('hidden');
+                if (previewImg) {
+                    previewImg.src = e.target.result;
+                    previewImg.classList.remove('hidden');
+                }
+                if (overlay) overlay.classList.add('hidden');
+
+                const ocrData = document.getElementById('onboard-ocr-data');
+                if (ocrData) {
+                    ocrData.classList.remove('hidden');
+                }
+                
+                showPropAlert('e-KTP Berhasil Diunggah & Terbaca Sistem OCR!');
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function hidePushNotif() {
+            document.getElementById('system-notification').classList.add('hidden');
+        }
+
+        function payBillFromNotif() {
+            hidePushNotif();
+            openModal('bayar');
+        }
+
+        function toggleDirectorPanel() {
+            document.getElementById('director-panel').classList.toggle('hidden');
+        }
+
+        function setFilmState(state) {
+            const warningBanner = document.getElementById('warning-banner');
+            if (state === 'normal') {
+                completeOnboardingAndEnterLobby();
+                warningBanner.classList.add('hidden');
+                showPropAlert('Mode Film: Diatur ke Status Normal / Limit Penuh');
+            } else if (state === 'overdue') {
+                completeOnboardingAndEnterLobby();
+                warningBanner.classList.remove('hidden');
+                triggerNotification('Pengingat Tagihan', 'Tagihan ' + rp(currentBill) + ' jatuh tempo ' + fmtDue(dueAt));
+            }
+            toggleDirectorPanel();
+        }
+
+        function showPropAlert(msg) {
+            const toast = document.createElement('div');
+            toast.className = 'fixed top-5 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-4 py-2.5 rounded-2xl shadow-2xl z-50 text-xs font-bold border border-slate-700 flex items-center gap-2';
+            toast.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400"></i><span>${msg}</span>`;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) return;
+            const onb = document.getElementById('onboarding-flow');
+            if (!onb || onb.classList.contains('hidden')) return;
+            const live = onboardCameraStream && onboardCameraStream.active;
+            if (live) return;
+            if (!document.getElementById('onboard-step-1').classList.contains('hidden')) {
+                const prev = document.getElementById('onboard-ktp-preview');
+                if (prev && prev.classList.contains('hidden')) triggerOnboardKtpCamera();
+            } else if (!document.getElementById('onboard-step-3').classList.contains('hidden')) {
+                if (!isFaceMatched) triggerOnboardFaceCamera();
+            }
+        });
+
+        // Initialize Application View on Window Load
+        window.onload = function() {
+            showLoginFlow();
+            initServiceWorker();
+            loadDue();
+            scheduleDue();
+            updateNotifStatus();
+        };
+    </script>
+</body>
+</html>
